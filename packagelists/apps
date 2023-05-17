@@ -1,0 +1,11 @@
+// PIP
+pipx
+git+https://github.com/EntySec/CamOver
+pyqt5-tools
+opencv-contrib-python-headless
+
+// PIPX
+baca
+epy
+epr
+girok

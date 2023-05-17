@@ -1,0 +1,7 @@
+byenow
+bob nvim
+nircmd
+bob
+rsync
+es
+python

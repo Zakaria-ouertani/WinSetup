@@ -1,0 +1,3 @@
+
+JohnMacFarlane.Pandoc
+Ombrelin.PandocGui

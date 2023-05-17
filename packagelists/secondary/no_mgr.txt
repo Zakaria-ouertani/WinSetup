@@ -1,0 +1,9 @@
+
+notepad2
+hx
+mupdf
+wget2
+retype
+gmic
+exiftool
+exitcode

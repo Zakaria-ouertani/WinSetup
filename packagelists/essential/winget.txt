@@ -1,0 +1,11 @@
+MiKTeX.MiKTeX -i
+Git.Git -i 
+Brave.Brave
+Rainmeter.Rainmeter -i
+voidtools.Everything -i
+KeePassXCTeam.KeePassXC
+7zip.7zip
+chrisant996.Clink -i
+vim.vim -i
+ImageMagick.ImageMagick
+

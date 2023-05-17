@@ -1,0 +1,15 @@
+f2
+PowerSession
+agg
+axel
+aria2
+insect
+hyperfine
+consolez
+macchina
+marp
+neofetch 
+psfzf 
+tre-command
+winfetch
+zoxide

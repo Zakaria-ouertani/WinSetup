@@ -1,0 +1,23 @@
+# ~/.config/starship.toml
+
+# Use custom format
+format = """[┌](bold green) $directory$git_branch$memory_usage$cmd_duration$status
+[└>](bold green)"""
+
+scan_timeout = 10
+
+add_newline = false
+
+[cmd_duration]
+show_milliseconds = true
+
+[directory]
+truncation_length = 0
+style = "bold green"
+truncate_to_repo = false
+
+[status]
+disabled = false
+style = "red"
+symbol = "x"
+format = '[\[$symbol $int\]]($style)'

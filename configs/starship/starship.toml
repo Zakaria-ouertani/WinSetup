@@ -1,11 +1,13 @@
 # ~/.config/starship.toml
 
 # Use custom format
-format = """[┌](bold green) $directory$git_branch$memory_usage$cmd_duration$status
-[└>](bold green)"""
+format = """[┌](bold green)$directory$git_branch$c$status $fill $memory_usage $cmd_duration$time[╮](bold green)
+[└$character](bold green)"""
+
+right_format = """[╯](bold green)"""
 
 scan_timeout = 10
-
+continuation_prompt = '>>>'
 add_newline = false
 
 [cmd_duration]
@@ -21,3 +23,23 @@ disabled = false
 style = "red"
 symbol = "x"
 format = '[\[$symbol $int\]]($style)'
+
+[c]
+format = '[$name $version]($style)'
+
+[character]
+success_symbol = '[>](bold green)'
+error_symbol = '[>](red)'
+
+[fill]
+symbol = '┈'
+style = "bold green"
+
+[time]
+disabled = false
+format = '[\[ $time \]]($style) '
+time_format = '%T'
+
+[memory_usage]
+disabled = false
+format = '[\[$ram\]]($style)'

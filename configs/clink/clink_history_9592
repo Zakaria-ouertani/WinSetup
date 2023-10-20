@@ -1,0 +1,7 @@
+np
+cd AppData\Local
+git chekup https://github.com/Zakaria-ouertani/QuickWinSetup/tree/main/configs/clink
+git chekout https://github.com/Zakaria-ouertani/QuickWinSetup/tree/main/configs/clink
+git checkout https://github.com/Zakaria-ouertani/QuickWinSetup/tree/main/configs/clink
+cd ..\..
+notepad a

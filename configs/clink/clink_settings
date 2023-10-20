@@ -6,6 +6,11 @@ autosuggest.async = True
 # type: boolean
 autosuggest.enable = True
 
+# name: Auto-update the Clink program files
+# type: enum
+# options: off,check,prompt,auto
+clink.autoupdate = auto
+
 # name: Colorize the input text
 # type: boolean
 clink.colorize_input = True

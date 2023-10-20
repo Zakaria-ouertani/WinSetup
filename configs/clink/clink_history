@@ -5985,7 +5985,7 @@ lsd --help
 Z
 z conf
 ls C:\Users\Administrator\AppData\Local\clink\ -1
-np clink\filelist 
+|p clink\filelist 
 np C:\Users\Administrator\AppData\Local\clink\clink_settings
 np C:\Users\Administrator\AppData\Local\clink\settings 
 np C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\
@@ -7211,7 +7211,7 @@ rsync -avzh --progress --files-from=%USERPROFILE%/Documents/Gits/QuickWinSetup/c
 rsync -avzh --progress --files-from=/cygdrive/c/Users/%USERNAME%/Documents/Gits/QuickWinSetup/configs/clink/filelist AppData/Local/clink/ Documents/Gits/QuickWinSetup/configs/clink/ --dry-run
 |sync -avzh --progress --files-from=/cygdrive/c/Users/%USERNAME%/Documents/Gits/QuickWinSetup/configs/clink_filelist AppData/Local/clink/ Documents/Gits/QuickWinSetup/configs/clink/ --dry-run
 x
-cd Documents\Gits\QuickWinSetup\
+|d Documents\Gits\QuickWinSetup\
 es starship.toml
 git remote add origin https://github.com/Zakaria-ouertani/WinSetup.git
 cd configs\clink\
@@ -8048,7 +8048,7 @@ cd xampp-7.1.13\
 git remote
 git config --get remote.origin.url. 
 git remote show
-git remote show origin
+|it remote show origin
 git remote show origin 
 php -v
 php artisan serve 
@@ -8407,7 +8407,7 @@ which arara
 git init -b main
 byenow --yes --yolo --staged --show-bytes .git
 git init
-git add .
+|it add .
 git config --global core.safecrlf false 
 git remote add origin https://github.com/Zakaria-ouertani/N_Counter
 which git
@@ -9042,7 +9042,7 @@ snapjaw installhttps://github.com/Warlockbugs/impulse-booster
 snapjaw install https://github.com/Warlockbugs/impulse-booster
 git add lajmi.py 
 git commit -m "Initial commit"
-git push
+|it push
 snapjaw install https://github.com/Road-block/KillLog
 spv https://www.youtube.com/watch?v=ul4z6sLnXYY
 mpv --no-video https://www.youtube.com/watch?v=ul4z6sLnXYY
@@ -11543,7 +11543,7 @@ es rsync.bat
 np C:\Apps\rsync.bat
 es *clink*bat
 es clink.bat
-cls
+|ls
 |t
 ..
 et
@@ -11554,5 +11554,20 @@ type configs\all
 p configs\all
 notepad configs\all
 |p scripts\backup_confs.bat 
+|p scripts\backup_confs.bat 
+|\scripts\backup_confs.bat 
+et  configs\nvim\
+|it add .
+git add .
+git commit -m "Added Neovim Config"
+git push
+cd Documents\Gits\QuickWinSetup\
+git remote show origin
+quic
+cls
+np clink\filelist 
+np configs\clink\filelist 
+np configs\clinkfilelist 
+np configs\clink\clink_filelist 
 np scripts\backup_confs.bat 
 .\scripts\backup_confs.bat 

@@ -1,178 +1,51 @@
-04cc app_context::start_logger  476 ---- 2023/10/20 09:09:23.213 -------------------------------------------------
-04cc app_context::start_logger  479 Host process is 'cmd.exe' (pid 1228)
-04cc app_context::start_logger  483 DLL path is 'C:\Program Files (x86)\clink'
-04cc app_context::start_logger  498 Windows version 10.0.19043 (x64)
-04cc app_context::start_logger  500 Clink version 1.5.11.08c7e3 (x64)
-04cc hook_setter::hook_setter  159 >>> Started hook transaction.
-04cc hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF624190000.
-04cc pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-04cc find_iat                  124 Found import at 00007FF6241C3860 (value is 00007FFE75C9D620).
-04cc hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF624190000.
-04cc pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
-04cc find_iat                  124 Found import at 00007FF6241C34F8 (value is 00007FFE75C47670).
-04cc hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF624190000.
-04cc pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-04cc find_iat                  124 Found import at 00007FF6241C3880 (value is 00007FFE75C65240).
-04cc hook_setter::commit       207 <<< Hook transaction committed.
-04cc hook_setter::hook_setter  159 >>> Started hook transaction.
-04cc hook_setter::detach_iat   359 Attempting to unhook 00007FFE366DC990 from GetEnvironmentVariableW in IAT for module 00007FF624190000.
-04cc pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-04cc find_iat                  124 Found import at 00007FF6241C3880 (value is 00007FFE366DC990).
-04cc hook_setter::commit       207 <<< Hook transaction committed.
-04cc hook_setter::hook_setter  159 >>> Started hook transaction.
-04cc hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF624190000.
-04cc pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
-04cc find_iat                  124 Found import at 00007FF6241C34E0 (value is 00007FFE75D32F70).
-04cc hook_setter::commit       207 <<< Hook transaction committed.
-04cc hook_setter::hook_setter  159 >>> Started hook transaction.
-04cc hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF624190000.
-04cc pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-2-0.dll'
-04cc find_iat                  124 Found import at 00007FF6241C3558 (value is 00007FFE75CAEFC0).
-04cc hook_setter::commit       207 <<< Hook transaction committed.
-04cc win_screen_buffer::begin  366 Using native terminal support (auto mode found 'Windows build >= 15063, console V2').
-04cc load_user_inputrc        1591 Found Readline inputrc at 'C:\Users\Administrator\.inputrc'
-04cc @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: updating because there is no record of having updated before.
-04cc host_lua::load_scripts    154 Loaded 36 Lua scripts in 17741 ms
-04cc ={update.lua}               0 Clink updater: too soon to check for updates (1697756358 vs 1697789411).
-04cc history_db::initialise   1258 master bank ctag: |CTAG_1693502395_512314531_7572_0
-04cc history_db::compact      1520 History:  9673 active, 1758 deleted
-04cc @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: check_for_update() reached.
-04cc @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: no update available; local version v1.5.11.08c7e3 is not older than latest release v1.5.11.
-04cc history_db::compact      1520 History:  9673 active, 1759 deleted
+0520 app_context::start_logger  476 ---- 2023/10/20 13:01:54.018 -------------------------------------------------
+0520 app_context::start_logger  479 Host process is 'cmd.exe' (pid 1312)
+0520 app_context::start_logger  483 DLL path is 'C:\Program Files (x86)\clink'
+0520 app_context::start_logger  498 Windows version 10.0.19043 (x64)
+0520 app_context::start_logger  500 Clink version 1.5.11.08c7e3 (x64)
+0520 hook_setter::hook_setter  159 >>> Started hook transaction.
+0520 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF624190000.
+0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0520 find_iat                  124 Found import at 00007FF6241C3860 (value is 00007FFE75C9D620).
+0520 hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF624190000.
+0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+0520 find_iat                  124 Found import at 00007FF6241C34F8 (value is 00007FFE75C47670).
+0520 hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF624190000.
+0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0520 find_iat                  124 Found import at 00007FF6241C3880 (value is 00007FFE75C65240).
+0520 hook_setter::commit       207 <<< Hook transaction committed.
+0520 hook_setter::hook_setter  159 >>> Started hook transaction.
+0520 hook_setter::detach_iat   359 Attempting to unhook 00007FFE366DC990 from GetEnvironmentVariableW in IAT for module 00007FF624190000.
+0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0520 find_iat                  124 Found import at 00007FF6241C3880 (value is 00007FFE366DC990).
+0520 hook_setter::commit       207 <<< Hook transaction committed.
+0520 hook_setter::hook_setter  159 >>> Started hook transaction.
+0520 hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF624190000.
+0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+0520 find_iat                  124 Found import at 00007FF6241C34E0 (value is 00007FFE75D32F70).
+0520 hook_setter::commit       207 <<< Hook transaction committed.
+0520 hook_setter::hook_setter  159 >>> Started hook transaction.
+0520 hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF624190000.
+0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-2-0.dll'
+0520 find_iat                  124 Found import at 00007FF6241C3558 (value is 00007FFE75CAEFC0).
+0520 hook_setter::commit       207 <<< Hook transaction committed.
+0520 win_screen_buffer::begin  366 Using native terminal support (auto mode found 'Windows build >= 15063, console V2').
+0520 load_user_inputrc        1591 Found Readline inputrc at 'C:\Users\Administrator\.inputrc'
+0520 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: updating because there is no record of having updated before.
+0520 host_lua::load_scripts    154 Loaded 36 Lua scripts in 703 ms
+0520 ={update.lua}               0 Clink updater: too soon to check for updates (1697789478 vs 1697803315).
+0520 history_db::initialise   1258 master bank ctag: |CTAG_1693502395_512314531_7572_0
+0520 history_db::compact      1520 History:  9708 active, 1854 deleted
+0520 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: check_for_update() reached.
+0520 history_db::compact      1520 History:  9708 active, 1855 deleted
+0520 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: no update available; local version v1.5.11.08c7e3 is not older than latest release v1.5.11.
+0520 history_db::compact      1520 History:  9708 active, 1856 deleted
+04cc history_db::compact      1520 History:  9708 active, 1856 deleted
+04cc history_db::compact      1520 History:  9709 active, 1856 deleted
+04cc history_db::compact      1520 History:  9709 active, 1857 deleted
+04cc history_db::compact      1520 History:  9709 active, 1858 deleted
+04cc history_db::compact      1520 History:  9710 active, 1858 deleted
+04cc history_db::compact      1520 History:  9711 active, 1858 deleted
 04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9673 active, 1760 deleted
-04cc history_db::compact      1520 History:  9673 active, 1761 deleted
-04cc ={update.lua}               0 Clink updater: latest release is v1.5.11; install type is zip.
-04cc ={update.lua}               0 Clink updater: no update available; local version v1.5.11 is not older than latest release v1.5.11.
-04cc history_db::compact      1520 History:  9673 active, 1762 deleted
-04cc history_db::compact      1520 History:  9674 active, 1762 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9675 active, 1762 deleted
-04cc history_db::compact      1520 History:  9676 active, 1762 deleted
-04cc history_db::compact      1520 History:  9677 active, 1762 deleted
-04cc history_db::compact      1520 History:  9677 active, 1763 deleted
-04cc history_db::compact      1520 History:  9677 active, 1764 deleted
-04cc history_db::compact      1520 History:  9677 active, 1765 deleted
-04cc history_db::compact      1520 History:  9677 active, 1766 deleted
-04cc history_db::compact      1520 History:  9677 active, 1767 deleted
-04cc history_db::compact      1520 History:  9677 active, 1768 deleted
-04cc history_db::compact      1520 History:  9677 active, 1769 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9677 active, 1770 deleted
-04cc history_db::compact      1520 History:  9677 active, 1771 deleted
-04cc history_db::compact      1520 History:  9677 active, 1772 deleted
-04cc history_db::compact      1520 History:  9677 active, 1773 deleted
-04cc history_db::compact      1520 History:  9677 active, 1774 deleted
-04cc history_db::compact      1520 History:  9677 active, 1775 deleted
-04cc history_db::compact      1520 History:  9677 active, 1776 deleted
-04cc history_db::compact      1520 History:  9677 active, 1777 deleted
-04cc history_db::compact      1520 History:  9677 active, 1778 deleted
-04cc history_db::compact      1520 History:  9677 active, 1779 deleted
-04cc history_db::compact      1520 History:  9677 active, 1780 deleted
-04cc history_db::compact      1520 History:  9677 active, 1781 deleted
-04cc history_db::compact      1520 History:  9677 active, 1782 deleted
-04cc history_db::compact      1520 History:  9677 active, 1783 deleted
-04cc history_db::compact      1520 History:  9677 active, 1784 deleted
-04cc history_db::compact      1520 History:  9677 active, 1785 deleted
-04cc history_db::compact      1520 History:  9677 active, 1786 deleted
-04cc history_db::compact      1520 History:  9677 active, 1787 deleted
-04cc history_db::compact      1520 History:  9677 active, 1788 deleted
-04cc history_db::compact      1520 History:  9677 active, 1789 deleted
-04cc history_db::compact      1520 History:  9677 active, 1790 deleted
-04cc history_db::compact      1520 History:  9677 active, 1791 deleted
-04cc history_db::compact      1520 History:  9677 active, 1792 deleted
-04cc history_db::compact      1520 History:  9677 active, 1793 deleted
-04cc history_db::compact      1520 History:  9677 active, 1794 deleted
-04cc history_db::compact      1520 History:  9677 active, 1795 deleted
-04cc history_db::compact      1520 History:  9677 active, 1796 deleted
-04cc history_db::compact      1520 History:  9677 active, 1797 deleted
-04cc history_db::compact      1520 History:  9677 active, 1798 deleted
-04cc history_db::compact      1520 History:  9677 active, 1799 deleted
-04cc history_db::compact      1520 History:  9677 active, 1800 deleted
-04cc history_db::compact      1520 History:  9677 active, 1801 deleted
-04cc history_db::compact      1520 History:  9677 active, 1802 deleted
-04cc history_db::compact      1520 History:  9677 active, 1803 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc reset_handle              144 resetting mismatched stderr handle
-04cc history_db::compact      1520 History:  9677 active, 1804 deleted
-04cc history_db::compact      1520 History:  9677 active, 1805 deleted
-04cc history_db::compact      1520 History:  9677 active, 1806 deleted
-04cc history_db::compact      1520 History:  9677 active, 1807 deleted
-04cc history_db::compact      1520 History:  9677 active, 1808 deleted
-04cc history_db::compact      1520 History:  9677 active, 1809 deleted
-04cc history_db::compact      1520 History:  9678 active, 1809 deleted
-04cc history_db::compact      1520 History:  9678 active, 1810 deleted
-04cc history_db::compact      1520 History:  9678 active, 1811 deleted
-04cc history_db::compact      1520 History:  9678 active, 1812 deleted
-04cc history_db::compact      1520 History:  9678 active, 1813 deleted
-04cc history_db::compact      1520 History:  9678 active, 1814 deleted
-04cc history_db::compact      1520 History:  9678 active, 1814 deleted
-04cc history_db::compact      1520 History:  9678 active, 1815 deleted
-04cc history_db::compact      1520 History:  9678 active, 1816 deleted
-04cc history_db::compact      1520 History:  9678 active, 1817 deleted
-04cc history_db::compact      1520 History:  9678 active, 1818 deleted
-04cc history_db::compact      1520 History:  9678 active, 1819 deleted
-04cc history_db::compact      1520 History:  9678 active, 1820 deleted
-04cc history_db::compact      1520 History:  9678 active, 1821 deleted
-04cc history_db::compact      1520 History:  9678 active, 1822 deleted
-04cc history_db::compact      1520 History:  9678 active, 1823 deleted
-04cc history_db::compact      1520 History:  9678 active, 1824 deleted
-04cc history_db::compact      1520 History:  9678 active, 1825 deleted
-04cc history_db::compact      1520 History:  9678 active, 1826 deleted
-04cc history_db::compact      1520 History:  9678 active, 1827 deleted
-04cc history_db::compact      1520 History:  9678 active, 1828 deleted
-04cc history_db::compact      1520 History:  9678 active, 1829 deleted
-04cc history_db::compact      1520 History:  9678 active, 1830 deleted
-04cc history_db::compact      1520 History:  9678 active, 1831 deleted
-04cc history_db::compact      1520 History:  9678 active, 1832 deleted
-04cc history_db::compact      1520 History:  9678 active, 1833 deleted
-04cc history_db::compact      1520 History:  9679 active, 1833 deleted
-04cc history_db::compact      1520 History:  9680 active, 1833 deleted
-04cc history_db::compact      1520 History:  9680 active, 1834 deleted
-04cc history_db::compact      1520 History:  9680 active, 1835 deleted
-04cc history_db::compact      1520 History:  9681 active, 1835 deleted
-04cc history_db::compact      1520 History:  9682 active, 1835 deleted
-04cc history_db::compact      1520 History:  9682 active, 1836 deleted
-04cc history_db::compact      1520 History:  9683 active, 1836 deleted
-04cc history_db::compact      1520 History:  9684 active, 1836 deleted
-04cc history_db::compact      1520 History:  9684 active, 1837 deleted
-04cc history_db::compact      1520 History:  9684 active, 1838 deleted
-04cc history_db::compact      1520 History:  9684 active, 1839 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9685 active, 1839 deleted
-04cc history_db::compact      1520 History:  9685 active, 1840 deleted
-04cc history_db::compact      1520 History:  9686 active, 1840 deleted
-04cc history_db::compact      1520 History:  9687 active, 1840 deleted
-04cc history_db::compact      1520 History:  9688 active, 1840 deleted
-04cc history_db::compact      1520 History:  9689 active, 1840 deleted
-04cc history_db::compact      1520 History:  9689 active, 1841 deleted
-04cc history_db::compact      1520 History:  9689 active, 1842 deleted
-04cc history_db::compact      1520 History:  9689 active, 1843 deleted
-04cc history_db::compact      1520 History:  9689 active, 1844 deleted
-04cc history_db::compact      1520 History:  9690 active, 1844 deleted
-04cc history_db::compact      1520 History:  9690 active, 1845 deleted
-04cc history_db::compact      1520 History:  9691 active, 1845 deleted
-04cc history_db::compact      1520 History:  9692 active, 1845 deleted
-04cc history_db::compact      1520 History:  9693 active, 1845 deleted
-04cc history_db::compact      1520 History:  9693 active, 1845 deleted
-04cc history_db::compact      1520 History:  9694 active, 1845 deleted
-04cc history_db::compact      1520 History:  9695 active, 1845 deleted
-04cc history_db::compact      1520 History:  9695 active, 1846 deleted
-04cc history_db::compact      1520 History:  9696 active, 1846 deleted
-04cc history_db::compact      1520 History:  9697 active, 1846 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9698 active, 1846 deleted
-04cc history_db::compact      1520 History:  9698 active, 1847 deleted
-04cc history_db::compact      1520 History:  9698 active, 1848 deleted
-04cc history_db::compact      1520 History:  9698 active, 1849 deleted
-04cc history_db::compact      1520 History:  9698 active, 1850 deleted
-04cc history_db::compact      1520 History:  9699 active, 1850 deleted
-04cc history_db::compact      1520 History:  9700 active, 1850 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9701 active, 1850 deleted
-04cc history_db::compact      1520 History:  9702 active, 1850 deleted
-04cc history_db::compact      1520 History:  9703 active, 1850 deleted
-04cc history_db::compact      1520 History:  9704 active, 1850 deleted
-04cc history_db::compact      1520 History:  9705 active, 1850 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9705 active, 1851 deleted
+04cc history_db::compact      1520 History:  9712 active, 1858 deleted
+04cc history_db::compact      1520 History:  9712 active, 1859 deleted

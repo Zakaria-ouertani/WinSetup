@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
-local install_cpath_pattern = "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
+local package_path_str = "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?.lua;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1696883897\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["auto-session"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-session",
+    url = "https://github.com/rmagatti/auto-session"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
@@ -89,15 +94,48 @@ _G.packer_plugins = {
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["compiler.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\compiler.nvim",
+    url = "https://github.com/Zeioth/compiler.nvim"
+  },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
   ["formatter.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
   },
+  ["hlsearch.nvim"] = {
+    config = { "\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rhlsearch\frequire\0" },
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\hlsearch.nvim",
+    url = "https://github.com/nvimdev/hlsearch.nvim"
+  },
+  ["hydra.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\hydra.nvim",
+    url = "https://github.com/smoka7/hydra.nvim"
+  },
+  ["legendary.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\legendary.nvim",
+    url = "https://github.com/mrjones2014/legendary.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -119,16 +157,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mini.comment",
     url = "https://github.com/echasnovski/mini.comment"
   },
+  ["move.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\move.nvim",
+    url = "https://github.com/hinell/move.nvim"
+  },
+  ["multicursors.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\multicursors.nvim",
+    url = "https://github.com/smoka7/multicursors.nvim"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
-  },
-  neorg = {
-    config = { "\27LJ\2\n7\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\nneorg\frequire\0" },
-    loaded = true,
-    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neorg",
-    url = "https://github.com/nvim-neorg/neorg"
   },
   ["noctis.nvim"] = {
     loaded = true,
@@ -139,6 +181,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  ["nvim-FeMaco.lua"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-FeMaco.lua",
+    url = "https://github.com/AckslD/nvim-FeMaco.lua"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -154,12 +201,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
-  },
-  ["nvim-devdocs"] = {
-    config = { "\27LJ\2\n:\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\17nvim-devdocs\frequire\0" },
-    loaded = true,
-    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-devdocs",
-    url = "https://github.com/luckasRanarison/nvim-devdocs"
   },
   ["nvim-emmet"] = {
     loaded = true,
@@ -191,6 +232,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["overseer.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\overseer.nvim",
+    url = "https://github.com/stevearc/overseer.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -206,6 +252,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\renamer.nvim",
     url = "https://github.com/filipdutescu/renamer.nvim"
   },
+  ["telescope-command-palette.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-command-palette.nvim",
+    url = "https://github.com/LinArcX/telescope-command-palette.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -215,14 +266,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["ultimate-autopair.nvim"] = {
-    config = { "\27LJ\2\nC\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\22ultimate-autopair\frequire\0" },
-    loaded = false,
-    needs_bufread = false,
-    only_cond = false,
-    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\ultimate-autopair.nvim",
-    url = "https://github.com/altermo/ultimate-autopair.nvim"
   },
   undotree = {
     loaded = true,
@@ -238,11 +281,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-magnum"] = {
-    loaded = true,
-    path = "C:\\Users\\Administrator\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-magnum",
-    url = "https://github.com/glts/vim-magnum"
   },
   ["vim-radical"] = {
     loaded = true,
@@ -267,20 +305,11 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-devdocs
-time([[Config for nvim-devdocs]], true)
-try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\17nvim-devdocs\frequire\0", "config", "nvim-devdocs")
-time([[Config for nvim-devdocs]], false)
--- Config for: neorg
-time([[Config for neorg]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\nneorg\frequire\0", "config", "neorg")
-time([[Config for neorg]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
-vim.cmd [[au CmdlineEnter * ++once lua require("packer.load")({'ultimate-autopair.nvim'}, { event = "CmdlineEnter *" }, _G.packer_plugins)]]
-vim.cmd [[au InsertEnter * ++once lua require("packer.load")({'ultimate-autopair.nvim'}, { event = "InsertEnter *" }, _G.packer_plugins)]]
+vim.cmd [[au BufRead * ++once lua require("packer.load")({'hlsearch.nvim'}, { event = "BufRead *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
 vim.cmd("augroup END")
 

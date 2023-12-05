@@ -57,4 +57,12 @@ vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 --- Close Buffer
 vim.keymap.set("n", "<leader>bc", ":bw<CR>", { desc = "Close Buffer" })
 vim.keymap.set("n", "<TAB>", ":bnext<CR>")
-vim.keymap.set("n", "<S-TAB>", ":bprevious<CR>")
+vim.keymap.set("n", "<S-TAB>", ":bprevious<CR>", {desc = ""})
+
+
+-- Multi Cursors
+vim.keymap.set({"n", "v"}, "<leader>m", ":MCstart<CR>")
+
+-- Utilities
+vim.keymap.set("v", "<leader>rev", ":'<,'>!tac<CR>", {desc = "Reverse Selected Lines"})
+vim.keymap.set("n", "<leader>fp", ":call setreg('+', getcwd() .. '\\' .. expand('%'))<CR>")

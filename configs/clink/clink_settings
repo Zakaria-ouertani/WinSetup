@@ -115,7 +115,7 @@ history.ignore_space = False
 
 # name: The number of history lines to save
 # type: integer
-history.max_lines = 10000
+history.max_lines = 100000
 
 # name: Share history between instances
 # type: boolean

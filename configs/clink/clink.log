@@ -1,51 +1,70 @@
-0520 app_context::start_logger  476 ---- 2023/10/20 13:01:54.018 -------------------------------------------------
-0520 app_context::start_logger  479 Host process is 'cmd.exe' (pid 1312)
-0520 app_context::start_logger  483 DLL path is 'C:\Program Files (x86)\clink'
-0520 app_context::start_logger  498 Windows version 10.0.19043 (x64)
-0520 app_context::start_logger  500 Clink version 1.5.11.08c7e3 (x64)
-0520 hook_setter::hook_setter  159 >>> Started hook transaction.
-0520 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF624190000.
-0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-0520 find_iat                  124 Found import at 00007FF6241C3860 (value is 00007FFE75C9D620).
-0520 hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF624190000.
-0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
-0520 find_iat                  124 Found import at 00007FF6241C34F8 (value is 00007FFE75C47670).
-0520 hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF624190000.
-0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-0520 find_iat                  124 Found import at 00007FF6241C3880 (value is 00007FFE75C65240).
-0520 hook_setter::commit       207 <<< Hook transaction committed.
-0520 hook_setter::hook_setter  159 >>> Started hook transaction.
-0520 hook_setter::detach_iat   359 Attempting to unhook 00007FFE366DC990 from GetEnvironmentVariableW in IAT for module 00007FF624190000.
-0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-0520 find_iat                  124 Found import at 00007FF6241C3880 (value is 00007FFE366DC990).
-0520 hook_setter::commit       207 <<< Hook transaction committed.
-0520 hook_setter::hook_setter  159 >>> Started hook transaction.
-0520 hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF624190000.
-0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
-0520 find_iat                  124 Found import at 00007FF6241C34E0 (value is 00007FFE75D32F70).
-0520 hook_setter::commit       207 <<< Hook transaction committed.
-0520 hook_setter::hook_setter  159 >>> Started hook transaction.
-0520 hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF624190000.
-0520 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-2-0.dll'
-0520 find_iat                  124 Found import at 00007FF6241C3558 (value is 00007FFE75CAEFC0).
-0520 hook_setter::commit       207 <<< Hook transaction committed.
-0520 win_screen_buffer::begin  366 Using native terminal support (auto mode found 'Windows build >= 15063, console V2').
-0520 load_user_inputrc        1591 Found Readline inputrc at 'C:\Users\Administrator\.inputrc'
-0520 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: updating because there is no record of having updated before.
-0520 host_lua::load_scripts    154 Loaded 36 Lua scripts in 703 ms
-0520 ={update.lua}               0 Clink updater: too soon to check for updates (1697789478 vs 1697803315).
-0520 history_db::initialise   1258 master bank ctag: |CTAG_1693502395_512314531_7572_0
-0520 history_db::compact      1520 History:  9708 active, 1854 deleted
-0520 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: check_for_update() reached.
-0520 history_db::compact      1520 History:  9708 active, 1855 deleted
-0520 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: no update available; local version v1.5.11.08c7e3 is not older than latest release v1.5.11.
-0520 history_db::compact      1520 History:  9708 active, 1856 deleted
-04cc history_db::compact      1520 History:  9708 active, 1856 deleted
-04cc history_db::compact      1520 History:  9709 active, 1856 deleted
-04cc history_db::compact      1520 History:  9709 active, 1857 deleted
-04cc history_db::compact      1520 History:  9709 active, 1858 deleted
-04cc history_db::compact      1520 History:  9710 active, 1858 deleted
-04cc history_db::compact      1520 History:  9711 active, 1858 deleted
-04cc reset_handle              144 resetting mismatched stdout handle
-04cc history_db::compact      1520 History:  9712 active, 1858 deleted
-04cc history_db::compact      1520 History:  9712 active, 1859 deleted
+0334 app_context::start_logger  476 ---- 2023/12/11 22:26:36.744 -------------------------------------------------
+0334 app_context::start_logger  479 Host process is 'cmd.exe' (pid 820)
+0334 app_context::start_logger  483 DLL path is 'C:\Program Files (x86)\clink'
+0334 app_context::start_logger  498 Windows version 10.0.19043 (x64)
+0334 app_context::start_logger  500 Clink version 1.5.18.dd581e (x64)
+0334 hook_setter::hook_setter  159 >>> Started hook transaction.
+0334 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD3860 (value is 00007FFF68FCD620).
+0334 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentStringsW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD3888 (value is 00007FFF68FC7CE0).
+0334 hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD34F8 (value is 00007FFF68F77670).
+0334 hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD3880 (value is 00007FFF68F95240).
+0334 hook_setter::commit       207 <<< Hook transaction committed.
+0334 hook_setter::hook_setter  159 >>> Started hook transaction.
+0334 hook_setter::detach_iat   359 Attempting to unhook 00007FFF3C58D100 from GetEnvironmentVariableW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD3880 (value is 00007FFF3C58D100).
+0334 hook_setter::commit       207 <<< Hook transaction committed.
+0334 hook_setter::hook_setter  159 >>> Started hook transaction.
+0334 hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD34E0 (value is 00007FFF69062F70).
+0334 hook_setter::commit       207 <<< Hook transaction committed.
+0334 hook_setter::hook_setter  159 >>> Started hook transaction.
+0334 hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF6BBCA0000.
+0334 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-2-0.dll'
+0334 find_iat                  124 Found import at 00007FF6BBCD3558 (value is 00007FFF68FDEFC0).
+0334 hook_setter::commit       207 <<< Hook transaction committed.
+0334 win_screen_buffer::begin  366 Using native terminal support (auto mode found 'Windows build >= 15063, console V2').
+0334 load_user_inputrc        1636 Found Readline inputrc at 'C:\Users\Administrator\.inputrc'
+0334 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: updating because there is no record of having updated before.
+0334 host_lua::load_scripts    154 Loaded 36 Lua scripts in 1519 ms
+0334 history_db::initialise   1258 master bank ctag: |CTAG_1693502395_512314531_7572_0
+0334 history_db::compact      1520 History:  10331 active, 4404 deleted
+0334 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: check_for_update() reached.
+0334 @C:\Users\Administrator\AppData\Local\clink\Lua_Scripts\autoup.lua   23 Clink updater: unable to find latest release zip file.
+0334 history_db::compact      1520 History:  10331 active, 4405 deleted
+0334 ={update.lua}               0 Clink updater: 2>&1 "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -Command "$ProgressPreference='SilentlyContinue' ; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12 ; Invoke-WebRequest -Headers @{\"cache-control\"=\"no-cache\"} -UseBasicParsing https://api.github.com/repos/chrisant996/clink/releases/latest | Select-Object -ExpandProperty Content"
+0334 ={update.lua}               0 Clink updater: output from command:
+0334 ={update.lua}               0 Clink updater:     Invoke-WebRequest : The remote name could not be resolved: 'api.github.com'
+0334 ={update.lua}               0 Clink updater:     At line:1 char:138
+0334 ={update.lua}               0 Clink updater:     + ... e]::Tls12 ; Invoke-WebRequest -Headers @{"cache-control"="no-cache"}  ...
+0334 ={update.lua}               0 Clink updater:     +                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0334 ={update.lua}               0 Clink updater:         + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebException
+0334 ={update.lua}               0 Clink updater:         + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+0334 ={update.lua}               0 Clink updater:      
+0334 ={update.lua}               0 Clink updater: unable to find latest release.
+0334 ={update.lua}               0 Clink updater: no update available; local version v1.5.18 is not older than latest release v1.5.18.
+0334 history_db::compact      1520 History:  10332 active, 4405 deleted
+0334 history_db::compact      1520 History:  10332 active, 4406 deleted
+0334 history_db::compact      1520 History:  10332 active, 4407 deleted
+0334 history_db::compact      1520 History:  10333 active, 4407 deleted
+0334 history_db::compact      1520 History:  10334 active, 4407 deleted
+0334 history_db::compact      1520 History:  10335 active, 4407 deleted
+0334 history_db::compact      1520 History:  10336 active, 4407 deleted
+0334 history_db::compact      1520 History:  10337 active, 4407 deleted
+0334 history_db::compact      1520 History:  10338 active, 4407 deleted
+0334 history_db::compact      1520 History:  10339 active, 4407 deleted
+0334 history_db::compact      1520 History:  10339 active, 4408 deleted
+0334 history_db::compact      1520 History:  10340 active, 4408 deleted
+0334 history_db::compact      1520 History:  10340 active, 4409 deleted
+0334 history_db::compact      1520 History:  10341 active, 4409 deleted
+0334 reset_handle              144 resetting mismatched stdout handle
+0334 history_db::compact      1520 History:  10342 active, 4409 deleted

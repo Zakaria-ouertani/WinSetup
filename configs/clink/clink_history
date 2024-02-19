@@ -1,22 +1,22 @@
 |CTAG_1693502395_512314531_7572_0
-convert -verbose -density 150 -trim "ModÃƒÂ¨le 1.pdf" -quality 100 -sharpen 0x1.0 "ModÃƒÂ¨le 1.png"
-convert -verbose -density 600 -trim "ModÃƒÂ¨le 1.pdf" -quality 100 -sharpen 0x1.0 "ModÃƒÂ¨le 1.1.png"
-autotrace.exe
-convert autotrace:5.png 5.svg
-convert autotrace:05.png 5.svg
-fhash
-anw
-manw
-mkbitmap
-mkbitmap -h
-opusdec
-opusenc
-opusinfo
-rclone -hy
-rclone -h
-rnr --help
-rsvg-convert.exe
-rsvg-convert.exe -h
+|onvert -verbose -density 150 -trim "ModÃƒÂ¨le 1.pdf" -quality 100 -sharpen 0x1.0 "ModÃƒÂ¨le 1.png"
+|onvert -verbose -density 600 -trim "ModÃƒÂ¨le 1.pdf" -quality 100 -sharpen 0x1.0 "ModÃƒÂ¨le 1.1.png"
+|utotrace.exe
+|onvert autotrace:5.png 5.svg
+|onvert autotrace:05.png 5.svg
+|hash
+|nw
+|anw
+|kbitmap
+|kbitmap -h
+|pusdec
+|pusenc
+|pusinfo
+|clone -hy
+|clone -h
+|nr --help
+|svg-convert.exe
+|svg-convert.exe -h
 stew /?
 tanosh
 tanoshi-win.exe -h
@@ -592,7 +592,7 @@ dict_to_json a b c d e
 dict_to_json a b c d e a a a
 ren fillGame.bat addGame.bat
 nu
-tab.html
+|ab.html
 pip instal cock
 pip install mps-youtube --upgrade
 pip install -e git+git://github.com/mohamed-challal/pafy.git
@@ -866,7 +866,7 @@ ffmpeg -i "VID_20201205_172300.mp4" -vcodec libx265 -crf 28 CHOUFNI.mp4
 ffmpeg -i "VID_20201205_172300.mp4" -vcodec libx265 -crf 28 -threads 4 CHOUFNI.mp4
 ffmpeg -i "VID_20201205_172300.mp4" -vcodec libx265 -crf 28 -threads 2 CHOUFNI.mp4
 ".\Shoot_'em_Batch.bat"
-tree /f
+|ree /f
 tree /f /A
 find -e bat
 find *.bat
@@ -1054,7 +1054,7 @@ dir *cat*
 for /F %I in ('dir /B *.m4v') do (exiftool -TagsFromFile "%I" "%~nI.mp4")
 pause 5
 pause /?
-pause /T 5
+|ause /T 5
 exiftool -d "VID_%Y-%m-%d_%H-%M-%S.%%e" "-filename<createdate" -ext m4v .
 exiftool -csv -ext m4v . >> original_tags.csv
 exiftool -csv -ext mp4 . >> tags.csv
@@ -1310,7 +1310,7 @@ dir /B *.png | wc -l
 dir /X
 dir /d
 fcshell
-FreakC.bat
+|reakC.bat
 set /a = 5 % 2
 set /a = 5 %% 2
 set /a = 5 ^% 2
@@ -1485,7 +1485,7 @@ mupdf  "Ã™â€¦Ã™â€žÃ˜Â®Ã™â€˜Ã˜ÂµÃ˜Â§Ã˜Âª Ã�
 Ã˜Â¤e:
 go update
 go help
-cox
+|ox
 doskey -h
 doskey /?
 doskey /macros
@@ -1499,7 +1499,7 @@ BatCodeCheck.exe
 bathl
 .\Rainmeter-4.5.13.exe
 w.bat
-dir *.exe
+|ir *.exe
 app
 dir /B /AD
 Rainmeter
@@ -1605,7 +1605,7 @@ lighthouse https://localhost/lajmi_new --chrome-flags="--ignore-certificate-erro
 localhost_2022-06-21_21-07-31.report.html
 convert 1820.jpeg -quality 50 1820.jpeg
 for
-for /?
+|or /?
 mogrify -format jpg *.png
 FOR /L %I in (1836,1,1956) do (convert %I.jpeg -quality 85 %I.jpeg)
 v:
@@ -1917,7 +1917,7 @@ pin 196.168.1.1:9091
 ping 196.168.1.1:9091
 ping 196.168.1.1 -p 9091
 ping -h | findstr port
-ping -h
+|ing -h
 ping -h | findstr /I port
 wo netstat
 wo ping
@@ -2121,7 +2121,7 @@ notify-send a
 inotifyd
 mshta "about:<script>alert('Hello, world!');close()</script>"
 notify-send a a
-notify-send -h
+|otify-send -h
 .\not.exe
 .\not.exe aa
 .\not.exe aa a
@@ -2483,7 +2483,7 @@ hp
 dir *hm*
 start ipconfig /flushdns
 curl https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt | wc -l
-ipconfig /displaydns
+|pconfig /displaydns
 regedit
 net stop dnscache
 net start dnscache
@@ -2622,7 +2622,7 @@ cd bintris\
 byenow --yes bintris\ 
 del .hushlogin
 pushd | clip  
-cd | clip  
+|d | clip  
 LS
 bash
 cd bintris-main\
@@ -3492,7 +3492,7 @@ git clone https://github.com/inechita/SudoQ
 py SudoQ\sudoq.py 
 np SudoQ\
 np SudoQ\sudoq.py 
-cd SudoQ\
+|d SudoQ\
 cd ShiDoku\
 np ShiDoku\outShiDoku.out 
 pip install asciiclip
@@ -3563,7 +3563,7 @@ type Desktop\pipFreeze.txt
 sudo winget uninstall python 
 winget list | rg python
 winget list | rg py
-winget list
+|inget list
 winget list | sort
 sudo winget uninstall Python.Python.3.9 
 wo pip
@@ -3622,7 +3622,7 @@ for /F "delims=*" %I in ('dir /B /D') do @echo %I)
 for /F "delims=*" %I in ('dir /B /D') do @echo %I
 for /F "delims=*" %I in ('dir /B /D') do (@echo %I)
 for /F "delims=*" %I in ('dir /B /D') do @(echo %I)
-gd
+|d
 cd c:\Users\Administrator\Documents\9raya\Drivet\
 hx dl.bat
 go get github.com/prasmussen/gdrive 
@@ -3646,7 +3646,7 @@ byenow --yes --yolo gdrive\
 bye %appdata%\.gdrive
 byenow --yes --yoo %appdata%\.gdrive
 byenow --yes --yolo %appdata%\.gdrive
-es brave.exe
+|s brave.exe
 "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" --explicitly-allowed-ports=1
 es Python310/Lib/site-packages/drive_cli/oauth.json
 es Python39/Lib/site-packages/drive_cli/oauth.json
@@ -3954,7 +3954,7 @@ exot
 aa
 cd Custom_Libs\
 hx test.^y
-rustc -h
+|ustc -h
 md Rust
 cd Rust\
 wo rustc
@@ -4249,7 +4249,7 @@ dox
 cd "Python\Dev_TP_2_2023\
 hx code.py 
 es texlive
-es miktex
+|s miktex
 sudo winget uninstall "Android Studio" 
 sudo winget uninstall "Vampire Survivors"
 |:\Users\Administrator\
@@ -4519,7 +4519,7 @@ wget https://spacevim.org/install.cmd -O spacevim_install.cmd
 spacevim_install.cmd 
 nvim "C:\Users\Administrator\Documents\Python\Divisibilté_PyQt\
 nvim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\
-nvim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\deviner.py
+|vim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\deviner.py
 md moon_code
 cd moon_code\
 paste 
@@ -4573,7 +4573,7 @@ cim
 ls .config\nvim\
 C:\Users\Administrator\AppData\Local\nvim-data\site\autoload\
 C:\Users\Administrator\AppData\Local\nvim\site\autoload\
-C:\Users\Administrator\AppData\Local\nvim\
+|:\Users\Administrator\AppData\Local\nvim\
 es vim*autoload
 es nvim*autoload
 es autoload
@@ -4668,7 +4668,7 @@ tree -l
 tree -h
 tree --help
 tree /?
-tree /F
+|ree /F
 touch lua\siu\init.lua
 nvim lua\siu\init.lua
 git clone https://github.com/wbthomason/packer.nvim "$%LOCALAPPDATA%\nvim-data\site\pack\packer\start\packer.nvim"
@@ -4682,7 +4682,7 @@ es packer.nvim.log
 np C:\Users\Administrator\AppData\Local\Temp\nvim\packer.nvim.log
 nvim lua
 clink update 
-del C:\Users\ADMINI~1\AppData\Local\Temp\clink\updater\updating
+|el C:\Users\ADMINI~1\AppData\Local\Temp\clink\updater\updating
 cd "Documents\Html\!Mouse3det\Harbi\
 md shili
 md shili_tp
@@ -4718,7 +4718,7 @@ nvim slaves\
 wget --progress=bar https://github.com/solidiquis/erdtree/releases/download/v1.2.0/et-v1.2.0-x86_64-pc-windows-msvc.exe
 ren et-v1.2.0-x86_64-pc-windows-msvc.exe et.exe
 et*
-tree
+|ree
 time tree
 timeit tree
 timeit et -I
@@ -5239,7 +5239,7 @@ set REPLICATE_API_TOKEN=e3103371e7faddecf90ca75f52364c5d003c5d89
 cd nicegui\
 md site_9raya
 cd Python\nicegui\site_9raya\
-py a.py
+|y a.py
 nvim main.py
  :q
 cd Documents\Python\nicegui\site_9raya\
@@ -5498,7 +5498,7 @@ np src\baca\utils\user_appdirs.py
 np C:\Users\Administrator\AppData\Local\Programs\Python\Python3\Lib\site-packages\baca\utils\user_appdirs.py
 pushd %USERPROFILE%\Documents\bacet
 pushd %USERPROFILE%\documents\ 
-cd 9raya\
+|d 9raya\
 cd Scanned\
 es bacet
 history | rg bacet
@@ -5610,7 +5610,7 @@ es git
 git clone https://github.com/NvChad/NvChad nvim
 [Cls
 nvim lua\custom\chadrc.lua 
-refreshenv
+|efreshenv
 es git.exe
 es cygwin64
 cd C:\Apps\cygwin64
@@ -5630,7 +5630,7 @@ dotnet
 boxes 6h
 psfzf
 scoop uninstall git
-bob ls
+|ob ls
 bob help ls
 bob rm 0.7.2
 ftp /?
@@ -5676,16 +5676,16 @@ notepad C:\Users\Administrator\.local\pipx\logs\cmd_2023-03-31_19.59.02_pip_erro
 bye C:\Users\Administrator\.local\pipx
 bye -x C:\Users\Administrator\.local\pipx
 pip install pipx
-pipx install recoverpy
+|ipx install recoverpy
 pipx install recoverpy --include-deps
-recoverpy
+|ecoverpy
 es recoverpy
 pipx uninstall recoverpy --include-deps
-pipx uninstall recoverpy
+|ipx uninstall recoverpy
 pipx install clot-terminal --include-deps
 pip uninstall clot-terminal
 clot
-which ls
+|hich ls
 nvim LS_COLORS
 es LS_COLORS
 es EXA_COLORS
@@ -5846,8 +5846,8 @@ copy nvim\ "!nvchad_bak\"
 ls nvim
 lsd nvim
 lsd nvim-data
-bob 
-bob sync
+|ob 
+|ob sync
 bob use 0.8.3
 lpwsh
 sudo winget upgrade -h 
@@ -5902,7 +5902,7 @@ set COLUMNS=150
 exa --icons -G c:\Apps\
 pdf math_2022.pdf 
 lsd --icons never c:\Apps\
-which lsd
+|hich lsd
 de lC:\Apps\lsd.exe
 del C:\Apps\lsd.exe
 exa --icons c:\Apps\
@@ -6056,7 +6056,7 @@ ren sync.bat install.bat
 |p install.bat 
 wget https://github.com/electronicarts/EACopy/releases/download/v1.14/EACopy.exe
 opod
-robocopy
+|obocopy
 eacopy | rg file
 gc
 pwsh -c gc
@@ -6142,13 +6142,13 @@ pushd /
 pushdcls
 move C:\Users\Administrator\Desktop\Portable_apps\FreakC\ c:\Apps\
 move C:\Users\Administrator\Desktop\Portable_apps\FreakC c:\Apps\
-es FreakC.bat
+|s FreakC.bat
 setx path %path%;C:\Apps\FreakC\
 setx path %path%;C:\Apps\FreakC
 history | rg setx
 setx PATH %PATH%C:\Apps\FreakC\
 setx /?
-echo %path%
+|cho %path%
 es kix
 es kixtart*exe
 es *kixtart*exe
@@ -6178,7 +6178,7 @@ iv
 smartctl
 pbat
 pbar
-explorer
+|xplorer
 history | rg "pip install"
 pip install PyQt-builder
 pip uninstall PyQt-builder
@@ -6206,7 +6206,7 @@ byenow --yes %TEMP%
 byenow --yes -x %TEMP%
 sudo winget uninstall ppsspp 
 pip uninstall torch
-cd Gits\QuickWinSetup\
+|d Gits\QuickWinSetup\
 py count_most_used.py 
 which ffmpeg
 wo ffmpeg
@@ -6317,7 +6317,7 @@ C:\ProgramData\chocolatey\choco.exe list -li
 ls bin\
 dua bin\rsync\
 ls bin\rsync\
-md scripts
+|d scripts
 move install_confs.bat scripts\
 move install_progs.bat scripts\
 move set_vars.bat scripts\
@@ -6376,7 +6376,7 @@ Xampp\uninstall.exe
 xampp7.1.3\uninstall.exe 
 cd xampp7.1.3\
 cd xampp7.1.13\
-ls *.bat
+|s *.bat
 xampp7.1.13\uninstall.exe 
 np .\setup_xampp.bat 
 .\setup_xampp.bat 
@@ -6485,13 +6485,13 @@ et ../../../..
 pushd C:\Users\Administrator\Documents\Gits\QuickWinSetup\packagelists\
 pushd -h
 pushd .?
-pushd /?
+|ushd /?
 z phy
 z qui
 cd packagelists\
 type apps 
 %__CD__%
-pushd
+|ushd
 echo %__CD__%
 np trapeze.py
 pdf c:\Users\Administrator\Documents\9raya\Manuels_Scolaires_CNP\4eme_S\Section_Info\222472P00.pdf 
@@ -6606,7 +6606,7 @@ ipconfig /ALL | findstr
 ipconfig /ALL
 ipconfig /ALL | findstr /I 197
 ipconfig /ALL | findstr /I 1*7
-ipconfig /?
+|pconfig /?
 ipconfig /release
 ipconfig /renew
 ipconfig /release & ipconfig /renew
@@ -6620,7 +6620,7 @@ cd Downloads\ISOs\
 exa
 zfm "DRAGON BALL SAGAS MULTIVERSE V2.1.iso" 
 cd ow
-cd Downloads\
+|d Downloads\
 del "DRAGON BALL SAGAS MULTIVERSE V2.1_1.iso" 
 zfm TLOT.rar 
 del TLOT.rar 
@@ -6846,7 +6846,7 @@ cd "Documents\9raya\bacet\Lafo\Math\
 pdf math_2009.pdf 
 for /L %I in (2008,1,2022) DO (wget http://www.bacweb.tn/bac/%I/principale/informatique/math.pdf -O math_%I.pdf)
 pdf math_2008.pdf 
-sdir
+|dir
 pdf math_2010.pdf 
 pdf math_2011.pdf 
 pdf math_2012.pdf 
@@ -7071,7 +7071,7 @@ xlq
 cargo clippy | cat
 cargo clippy | bat
 bat
-bat -h
+|at -h
 cargo clippy | bat --paging always
 np cls
 cd C:\Users\Administrator\Downloads\m\BB_
@@ -7086,7 +7086,7 @@ pdf DS3_4SI_2016_Jerba.pdf
 winword
 convert *.jpg DS3_4SI_2022_Mahdia.pdf
 pushd C:\Users\Administrator\
-[A
+|A
 C:\Users\Administrator\Downloads\m\BB_\Prog\Devoirs\
 robocopy BB_\ ..\..\Documents\Gits\Cours_Series_Devoirs_Algo\
 robocopy BB_\ ..\..\Documents\Gits\Cours_Series_Devoirs_Algo\ /MIR
@@ -7149,7 +7149,7 @@ robocopy . Remake /MIR
 sudo winget install kile 
 z adm
 z administrator
-z user
+| user
 z admin
 pushd %USERPROFILE%
 dcls
@@ -7184,7 +7184,7 @@ del *.jpg
 pdf "حوار الحضارات.pdf" 
 convert *.jpg "في الفكر و الفن.pdf"
 "في الفكر و الفن.pdf"
-np a.py
+|p a.py
 py a.py 
 del a.py
 csc
@@ -7200,7 +7200,7 @@ clsl
 |d src\
 np show_table_remake.rs
 nvim show_table.rs show_table_remake.rs main.rs show_table\min_max_lib.rs 
-clear
+|lear
 :w
 ..\target\release\hiddenOnes.exe 
 rustup 
@@ -7213,7 +7213,7 @@ rsync -avzh --progress --files-from=/cygdrive/c/Users/%USERNAME%/Documents/Gits/
 x
 |d Documents\Gits\QuickWinSetup\
 es starship.toml
-git remote add origin https://github.com/Zakaria-ouertani/WinSetup.git
+|it remote add origin https://github.com/Zakaria-ouertani/WinSetup.git
 cd configs\clink\
 es -path . .git
 print a
@@ -7231,7 +7231,7 @@ printf "'a'"
 printf "''''''''a'"
 printf "''''''''a'''''''"
 cd clink\Lua_Scripts\clink-completions\
-git
+|it
 cd Documents\Gits\QuickWinSetup\clink\Lua_Scripts\clink-completions\
 cd Documents\Gits\QuickWinSetup\configs\clink\Lua_Scripts\clink-completions
 cd more-clink-completions\
@@ -7515,7 +7515,7 @@ scoop update soft-serve
 scoop status
 scoop update -a
 cargo install rustypaste 
-pushd %USERPROFILE%\Documents
+|ushd %USERPROFILE%\Documents
 es ec.ece
 es wc.exe
 ren C:\Apps\uutils_ uutils
@@ -7644,7 +7644,7 @@ browsr "Documents\Python\PyQt_GPS\
 pbpaste.exe > test.tst
 pbpaste.exe > test.txt
 teyp test.txt 
-type test.txt 
+|ype test.txt 
 pipx upgrade browsr
 browsr test.txt 
 browsr 
@@ -7714,7 +7714,7 @@ wget -e robots=off -r -k -A pdf www.bacweb.tn
 cd Lafo\
 pdf Phys\physique_2022.pdf 
 cd Co
-gits
+|its
 gix clone https://github.com/4imothy/gret
 cd gret\
 |argo build --release
@@ -7889,12 +7889,12 @@ unwise "Install.log"
 unwise
 cd "Academy of Magic\
 ..\unwise.exe Install.log 
-cls 
+|ls 
 for /F "delims=*" %I in ('dir /B') do (start /w .\unwise "%I\install.log")
 for /F "delims=*" %I in ('dir /B') do (pushd "%I" & start /w ..\unwise install.log & ")
 cd "GameHouse Games Collection\
 for /F "delims=*" %I in ('dir /B') do (pushd "%I" & start /w ..\unwise install.log & popd)
-dir
+|ir
 dir /?
 cd c:\Games\GameHouse Games Collection\
 for /F "delims=*" %I in ('dir /B /A:D') do (pushd "%I" & start /w ..\unwise install.log & popd)
@@ -7910,9 +7910,9 @@ winget install KDE.kstars
 winget install digikam
 speedtest
 np p.c
-np s.py 
+|p s.py 
 np p.c 
-py s.py 
+|y s.py 
 md yeetcode
 cd yeetcode\
 np twosum.py
@@ -7936,7 +7936,7 @@ notepad anwer_jameli.txt
 git add README.md
 git commit -m "first commit"
 git reset --soft HEAD~
-git reset
+|it reset
 git add anwer_jameli.txt 
 git git branch -M master
 echo "# Elyes_Zaatir_acacdemy" >> README.md
@@ -8012,7 +8012,7 @@ composer install
 composer update
 notepad cswow.bat
 echo a >a
-type a
+|ype a
 del a
 cd Turtle_wow\
 rg everlook
@@ -8244,7 +8244,7 @@ git remote add origin https://github.com/Zakaria-ouertani/PowerAuras-vanilla-Mod
 git remote add origin https://github.com/Zakaria-ouertani/PowerAuras-vanilla-Mod.git
 git i,it
 git remote add origin https://github.com/Zakaria-ouertani/PowerAuras-vanilla-Mod
-git branch -M master
+|it branch -M master
 lsd textures\
 git clone https://github.com/Zakaria-ouertani/PowerAuras-vanilla PowerAurasMod_t
 cd PowerAurasMod_t\
@@ -8280,7 +8280,7 @@ pushd %USERPROFILE%\AppData\local
 glow vsc_shortcuts.md 
 byenow --yes --yolo --staged --show-bytes nvim
 wo nvim
-which nvim
+|hich nvim
 |ob
 |ob list
 bob install 0.9.1
@@ -8325,7 +8325,7 @@ git clone https://github.com/mrrosh/DiivSkins
 history | rg gpg
 git clone https://github.com/redshadowz/Groupfinder 
 ov
-scoop list
+|coop list
 scoop list |ov -H1 --column-width --column-rainbow
 ps
 ps aux|ov -H1 --column-width --column-rainbow 
@@ -8406,7 +8406,7 @@ move config.json niggacount\
 which arara
 git init -b main
 byenow --yes --yolo --staged --show-bytes .git
-git init
+|it init
 |it add .
 git config --global core.safecrlf false 
 git remote add origin https://github.com/Zakaria-ouertani/N_Counter
@@ -8414,7 +8414,7 @@ which git
 git config --global user.email "zakaria.ouertani2004zou@gmail.com"
 git config --global user.name "Mohamed Zakaria Ouertani"
 git pull
-git push -u origin master
+|it push -u origin master
 git clone https://github.com/Zakaria-ouertani/N_Counter niggacount 
 git clone https://github.com/Zakaria-ouertani/N_Counter niggacount _
 git clone https://github.com/Zakaria-ouertani/N_Counter niggacount_
@@ -8489,7 +8489,7 @@ gogo-cli
 |sl
 ping f.s.s.m.c.qjz9zk
 winget install mozilla.firefox
-es firefox.exe
+|s firefox.exe
 which firefox
 cd  %APPDATA%\Mozilla\Firefox\Profiles
 cd 4xfe5wyl.bou3\
@@ -8502,7 +8502,7 @@ es firefox*Pocket
 cd C:
 cd C:\
 cd "Program Files\Mozilla Firefox\
-cd browser\features\
+|d browser\features\
 winget install librewolf
 winget install librewolf.librewolf
 es librewolf
@@ -8515,10 +8515,10 @@ z firefox
 np Profiles\4xfe5wyl.bou3\user.js 
 firefox
 bye Profiles\4xfe5wyl.bou3\
-firefox -no-remote -ProfileManager
+|irefox -no-remote -ProfileManager
 pip install promnesia bs4 lxml mistletoe logzero
 pip install promnesia[all] bs4 lxml mistletoe logzero
-promnesia
+|romnesia
 promnesia demo
 |d Documents\
 cd Gits\
@@ -8607,7 +8607,7 @@ D:\
 cd Games\
 C:\games
 C:\games\
-robocopy /?
+|obocopy /?
 robocopy wow_servers\ D:\Games\wow_servers\ /MIR /MT:16 /J
 byenow --yes --yolo --staged --show-bytes wow_servers\
 bye wow_servers\
@@ -8647,7 +8647,7 @@ wget -c "https://download.wowdl.net/WoW%20Classic%201.14.0.40618%20All%20Languag
 node deploy.js 
 7z x "WoW Classic 1.14.0.40618 All Languages.rar" 
 "WoW Classic 1.14.0.40618 All Languages.rar" 
-......
+|.....
 bye Winterspring_Launcher\
 byenow --yes --yolo --staged --show-bytes Music\
 md media_streaming
@@ -8671,12 +8671,12 @@ byenow --yes --yolo --staged --show-bytes "C:\ProgramData\Jellyfin"
 byenow --yes --yolo --staged --show-bytes "C:\Program Files\Jellyfin"
 byenow --yes --yolo --staged --show-bytes "C:\Users\Administrator\media_streaming\jellyfin\
 |ircmd.exe emptybin
-cd Documents\disbots\niggacount\
+|d Documents\disbots\niggacount\
 npm i -g win-node-env && yarn install && yarn run build && yarn start
 yarn run build
 |yenow --yes --yolo --staged --show-bytes .
 git clone --single-branch --branch main https://github.com/Fallenbagel/jellyseerr
-node .
+|ode .
 git clone --single-branch --branch main https://github.com/Fallenbagel/jellyseerr .
 npm i -g win-node-env 
 cd media_streaming\jellyseerr\
@@ -8702,7 +8702,7 @@ md series
 popd
 netstat
 ipconfig
-shutdown /s /hybrid /t 0 & exit
+|hutdown /s /hybrid /t 0 & exit
 |d Documents\Python\
 cd Chess_PGN
 |vim
@@ -8734,7 +8734,7 @@ np snapjaw.bat
 snapjaw
 snapjaw --help
 snapjaw -h
-cd Games\wow_servers\
+|d Games\wow_servers\
 snapjaw --addons-dir World_of_Warcraft_1.12.1\Interface\AddOns\
 snapjaw --addons-dir World_of_Warcraft_1.12.1\Interface\AddOns\ status
 snapjaw --addons-dir World_of_Warcraft_1.12.1\Interface\AddOns status
@@ -8786,7 +8786,7 @@ wget2 --progress=bar https://vanillaplus.org/uploads/patch-3.MPQ
 https://github.com/aleksilassila/.
 ........
 lsd media_streaming\
-~
+|
 cd media_streaming\
 git clone https://github.com/aleksilassila/reiverr
 cd reiverr\
@@ -8855,17 +8855,17 @@ snapjaw remove https://github.com/KrekoG/SpecialTalentUI
 snapjaw https://github.com/KrekoG/SpecialTalent
 snapjaw install https://github.com/KrekoG/SpecialTalent
 snapjaw install https://github.com/KrekoG/SpecialTalentui
-apps
+|pps
 wget https://github.com/lesderid/keynavish/releases/download/v1.6.0/keynavish-v1.6.0-x86_64.exe -O keynav.exe
 .\keynav.exe 
-cd Games\wow_servers\Turtle\
+|d Games\wow_servers\Turtle\
 ms
 np C:\Apps\snapjaw
 snapjaw install https://github.com/shagu/pfUI/
 snapjaw install https://github.com/mrrosh/Bongos
 setx %PATH% "%PATH%;%USERPROFILE\Desktop"
 setx %PATH% "%PATH%;%USERPROFILE%\Desktop"
-setx %PATH% "%PATH%;D:\Games\wow_servers\Turtle\"
+|etx %PATH% "%PATH%;D:\Games\wow_servers\Turtle\"
 echo %pathext%
 np c:\Apps\a.vbs
 a.vbs
@@ -8884,7 +8884,7 @@ snapjaw install https://github.com/wow-vanilla-addons/Accountant
 echo %pathext% 
 lsd
 |efreshEnv
-cd Games\wow_servers\Turtle\Interface\AddOns\
+|d Games\wow_servers\Turtle\Interface\AddOns\
 |...
 cd World_of_Warcraft_1.12.1\Interface\AddOns\
 np C:\Apps\snapjaw.bat 
@@ -9068,7 +9068,7 @@ cd Documents\Python\webspiderman\
 |ing wikipedia.com
 ping wikipedia.com
 py lajmi.py 
-cd Documents\Rust\
+|d Documents\Rust\
 md webspiderman
 |d webspiderman\
 cargo new .
@@ -9080,7 +9080,7 @@ cd webspiderman\
 |s
 cd src\
 |s
-nvim main.rs 
+|vim main.rs 
 cargo add reqwest
 |argo run
 |d Documents\Rust\webspiderman\
@@ -9219,7 +9219,7 @@ np C:\Users\Administrator\.config/promnesia/config.py
 promnesia config create
 notepad C:/Users/Administrator/AppData/Local/promnesia/promnesia/config.py
 cd AppData\Local\
-bye nvim-data\
+|ye nvim-data\
 bye nvim\
 |ls
 |vim
@@ -9243,10 +9243,10 @@ nvim init.lua
 bye "..\nvim-data\"
 |ye "..\nvim-data"
 |.
-cd
-cd nvim
+|d
+|d nvim
 echo >init.lua
-type init.lua 
+|ype init.lua 
 |vim.exe init.lua 
 |vim.exe 
 nvim.exe 
@@ -9259,7 +9259,7 @@ md lua
 nvim.exe lua\plugins.lua
 |vim.exe init.lua 
 |s
-cd lua\
+|d lua\
 |ls
 |s
 bye plugins.lua 
@@ -9281,10 +9281,10 @@ ren lua\pip\plugins.lua packer.lua
 |vim lua\pip\packer.lua 
 |vim 
 nvim -V
-bob
+|ob
 bob list
 nvim use 0.9.1
-bob use 0.9.1
+|ob use 0.9.1
 bob uninstall 0.8.3
 bob bob uninstall 0.9.0
  bob uninstall 0.9.0
@@ -9310,11 +9310,11 @@ pwsh
 |vim lua\pip\packer.lua 
 |vim lua\pip\packer.lua 
 |s
-np init.lua 
+|p init.lua 
 |s
 |t
 |vim lua\pip\packer.lua 
-nvim init.lua 
+|vim init.lua 
 nvim plugin\i
 |vim lua\pip\init.lua 
 ping comick.app
@@ -9328,7 +9328,7 @@ ping comick.app
 |vim lua\pip\packer.lua 
 |vim lua\pip\init.lua 
 |vim lua\pip\init.lua 
-nvim
+|vim
 |vim lua\pip\init.lua 
 |vim 
 |vim 
@@ -9381,8 +9381,8 @@ nvim after\plugin\neotree.lua
 |vim lua\pip\packer.lua 
 |vim lua\pip\init.lua 
 |vim lua\pip\remaps.lua 
-nvim lua\pip\init.lua 
-nvim lua\pip\remaps.lua 
+|vim lua\pip\init.lua 
+|vim lua\pip\remaps.lua 
 |vim .
 |vim .
 npm install -g live-server 
@@ -9397,8 +9397,8 @@ cd AppData\Local\nvim-data\
 |ls
 |s
 |vim lua\pip\packer.lua 
-cd Documents\
-cd Html\
+|d Documents\
+|d Html\
 md test
 |d test\
 np a.html
@@ -9418,7 +9418,7 @@ desk
 |ls
 notepad C:\Apps\snapjaw.bat 
 notepad d:\Games\wow_servers\World_of_Warcraft_1.12.1\vwow.bat 
-gcc
+|cc
 |hich gcc
 |acros
 |:
@@ -9471,7 +9471,7 @@ cms
 |ls
 |d AppData\Local\nvim
 |vim .
-dox
+|ox
 md C
 |d C
 |s
@@ -9490,8 +9490,8 @@ gcc array.c
 |.exe
 |s
 del a.exe 
-gcc -h
-gcc --help
+|cc -h
+|cc --help
 |cc array.c -o array.exe
 |rray
 |cc array.c -o array.exe
@@ -9517,7 +9517,7 @@ array
 tsnap install https://github.com/GryllsAddons/ShaguTweaks-mods
 esnap https://github.com/GryllsAddons/ShaguTweaks-mods
 esnap install https://github.com/GryllsAddons/ShaguTweaks-mods
-cd C:\Users\Administrator\AppData\Local\nvim\
+|d C:\Users\Administrator\AppData\Local\nvim\
 |vim lua\pip\packer.lua 
 |d Documents\c
 md nature_triangle
@@ -9622,7 +9622,7 @@ nvim gray_code_counter.c
 gcc gray_code_counter.c -o graycount.ex
 |d AppData\Local\nvim
 |vim lua\pip\packer.lua 
-cd Documents\c
+|d Documents\c
 |s
 md gray_code_to_binary
 cd gray_code_to_binary\
@@ -9633,7 +9633,7 @@ nvim gray_code_to_binary.c
 del graycount.ex
 |el graycount.exe 
 |vim gray_code_counter.c 
-cd Documents\c\gray_code_counter\
+|d Documents\c\gray_code_counter\
 |vim gray_code_counter.c 
 |cc gray_code_counter.c 
 |cc gray_code_counter.c -o graycount.exe
@@ -9688,7 +9688,7 @@ graycountcls
 |cc gray_code_counter.c -o graycount.exe
 |cc gray_code_counter.c -o graycount.exe
 |cc gray_code_counter.c -o graycount.exe
-del graycount.exe 
+|el graycount.exe 
 |cc gray_code_counter.c -o graycount.exe
 |s
 |raycount
@@ -9714,8 +9714,8 @@ nvim c.c
 |ls
 gcc c.c 
 a.exe
-cd gray_code_counter\
-nvim gray_code_counter.c 
+|d gray_code_counter\
+|vim gray_code_counter.c 
 |cc gray_code_counter.c -o graycount.exe
 |raycount
 |ls
@@ -9769,7 +9769,7 @@ nvim flip_string.c
 gcc flip_string.c -o flips.exe
 flips
 |ls
-C:\Users\Administrator\
+|:\Users\Administrator\
 |d AppData\Local\nvim
 |vim lua\pip\packer.lua 
 |vim .
@@ -9795,7 +9795,7 @@ cargo install jless
 scoop install xh
 rnr -h
 whichc gcc
-which gcc
+|hich gcc
 |ir /b
 |d Documents\c\
 md nombre_parfait
@@ -9924,7 +9924,7 @@ nvim suite1.c
 gcc suite1.c -o suite1.exe
 suite1.exe
 |...
-cd C
+|d C
 |d random_voleyball\
 nvim voleyb.c 
 |cc voleyb.c -o voleyb.exe
@@ -10030,10 +10030,10 @@ md pgn_notation_reader
 |d pgn_notation_reader\
 |vim .
 sudo winget install devdocs
-:q
-cd AppData\Local\nvim
-nvim 
-nvim .
+|q
+|d AppData\Local\nvim
+|vim 
+|vim .
 nvim C:\Users\Administrator\AppData\Local\nvim\
 nvim C:\Users\Administrator\AppData\Local\nvim
 |hich curl
@@ -10052,7 +10052,7 @@ C:\Apps\busybox\curl.exe --help
 |efreshEnv
 |hich curl
 |hich curl
-cd Documents\c\
+|d Documents\c\
 cd pgn_notation_reader\
 |vim pgn.c 
 |vim C:\Users\Administrator\AppData\Local\nvim\after\plugin\devdocs.lua 
@@ -10146,7 +10146,7 @@ yt-dlp https://www.youtube.com/watch?v=A3-lywDekH0 bestvideo[height=480]+bestaud
 |ls
 byenow --yes --yolo --staged --show-bytes. 
 byenow --yes --yolo --staged --show-bytes. .
-byenow --yes --yolo --staged --show-bytes .
+|yenow --yes --yolo --staged --show-bytes .
 yt-dlp -f bestvideo[height=480]+bestaudio https://www.youtube.com/watch?v=A3-lywDekH0 https://www.youtube.com/shorts/0IVaCl5uOVw https://www.youtube.com/watch?v=U-jXMeo4a4k https://www.youtube.com/watch?v=P1Flr7JhPow https://www.youtube.com/watch?v=4klHGcslxlw https://www.youtube.com/watch?v=2_i_yWlEi_s https://www.youtube.com/watch?v=kFqksrwW2H4 https://www.youtube.com/watch?v=PNiMkGLdUB4 https://www.youtube.com/watch?v=mt27vKorME https://www.youtube.com/watch?v=N8D1_Jie7co
 |ls
 byenow --yes --yolo --staged --show-bytes . 
@@ -10168,7 +10168,7 @@ notepad h
 yt-dlp -F https://www.youtube.com/watch?v=mt27vKorMJE https://www.youtube.com/watch?v=PNiMkGLdUB4 https://www.youtube.com/watch?v=U-jXMeo4a4k
 du
 |s
-dir /b
+|ir /b
 dir 
 yt-dlp -f bestvideo[height=480] https://www.youtube.com/watch?v=mt27vKorMJE https://www.youtube.com/watch?v=PNiMkGLdUB4 https://www.youtube.com/watch?v=U-jXMeo4a4k
 yt-dlp -f bestvideo[height=480] https://www.youtube.com/watch?v=PNiMkGLdUB4 https://www.youtube.com/watch?v=U-jXMeo4a4k
@@ -10288,7 +10288,7 @@ ffmpeg -f concat -i list -c copy comp.mp3
 mpv comp.mp3 
 |ls
 ..\video\
-history
+|istory
 |istory | rg ffmpeg
 ffmpeg -i comp.webm -stream_loop -1 -i "..\music\comp.mp3" -shortest -map 0:v:0 -map 1:a:0 -c:v copy output.webm
 mpv output.webm 
@@ -10391,7 +10391,7 @@ gcc L.c -o W.exe
 |.
 cd random_voleyball\
 type voleyb.c | clip
-cd Documents\C
+|d Documents\C
 md print_triangle
 cd print_triangle\
 |vim print_triangles.c
@@ -10572,7 +10572,7 @@ tsnap install https://github.com/Lexiebean/AtlasLoot
 |ls
 |.
 md adriann.github.io_programming_problems
-cd adriann.github.io_programming_problems\
+|d adriann.github.io_programming_problems\
 xls
 |ls
 |ls
@@ -10642,10 +10642,10 @@ gccrun 13_alternate_array_concat.c
 |..
 md tris_trois_tableaux
 cd tris_trois_tableaux\
-ls ..
+|s ..
 |ls
 nvim tris_trois_tableaux.c
-wsl
+|sl
 |p
 np
 cd Documents\C\adriann.github.io_programming_problems
@@ -10758,7 +10758,7 @@ cd check_string_order
 |..
 |.
 nvim AppData\Local\nvim\lua\custom\plugins.lua 
-nvim AppData\Local\nvim\lua\pip\packer.lua 
+|vim AppData\Local\nvim\lua\pip\packer.lua 
 |d Documents\C\check_string_order\
 |vim check_string_order.c
 |ccrun check_string_order.c 
@@ -10932,13 +10932,13 @@ nvim "C:\Users\Administrator\Documents\Html\Belatrice\
 |vim after\plugin\emmet-lsp.lua 
 |vim "C:\Users\Administrator\Documents\Html\Belatrice\index.html" 
 |vim after\plugin\nvim-emmet.lua 
-nvim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
 nvim after\plugin\nvim-emmet.lua 
 |vim "C:\Users\Administrator\Documents\Html\Belatrice\index.html" 
 |ls
 nvim after\plugin\emmet-lsp.lua 
 nvim "C:\Users\Administrator\Documents\Html\Belatrice\index.html" 
-py
+|y
 |ls
 np C:\Users\Administrator\Documents\C\check_string_order\check_string_order.c
 gccrun C:\Users\Administrator\Documents\C\check_string_order\check_string_order.c
@@ -10975,7 +10975,7 @@ gccrun C:\Users\Administrator\Documents\C\check_string_order\check_string_order.
 |ls
 md fill_array
 cd fill_array\
-np a.c
+|p a.c
 |cc a.c 
 |ls
 |cc a.c 
@@ -11007,8 +11007,8 @@ np "D:\Games\wow_servers\Turtle\Interface\AddOns\snapjaw.json"
 |ls
 tsnap status
 |ircmd.exe emptybin
-delbin
-nircmd.exe emptybin
+|elbin
+|ircmd.exe emptybin
 |ls
 sudo winget upgrade 
 nvim "C:\Users\Administrator\Documents\C\check_string_order\check_string_order.c
@@ -11065,17 +11065,17 @@ rd addition_binaire\
 md operations_binaires
 |d operations_binaires\
 |vim operations_binaires.c
-cd AppData\Local\nvim\lua\pip\
+|d AppData\Local\nvim\lua\pip\
 nvim packer.lua 
 |vim operations_binaires.c
-....
+|...
 |..
 |d Documents\C\
 np flip_string\flip_string.c
 np check_string_order\
 |p check_string_order.c
 |p check_string_order\check_string_order..c
-np check_string_order\check_string_order.c
+|p check_string_order\check_string_order.c
 |ccrun operations_binaires.c 
 |ccrun operations_binaires.c 
 |ccrun operations_binaires.c 
@@ -11104,13 +11104,13 @@ np TD_Algo\Conversion_Entier_Binaire\conversion_entier_binaire.c
 gccrun flip_string.c
 cd operations_binaires\
 nvim operations_binaires.
-c
+|
 |l
 |vim operations_binaires.c
 |d Documents\C\operations_binaires\
 |vim operations_binaires.c
 |ccrun operations_binaires.c 
-a
+|
 |ccrun operations_binaires.c 
 |ls
 |ccrun operations_binaires.c 
@@ -11239,7 +11239,7 @@ ffmpeg -ss 920 -t 3 -i m9ded.mp4.webm -y -c copy m9ded_.webm
 |bpaste
 pbpaste
 |ls
-cd Documents\Python\
+|d Documents\Python\
 md minmax_matice
 ren minmax_matice\ minmax_matrice\
 ren minmax_matice minmax_matrice
@@ -11266,13 +11266,13 @@ md ESP32 & cd ESP32
 transmission
 wget https://dl.espressif.com/public/DevCon23_ESP-IDF_Getting_Started.pdf
 pdf DevCon23_ESP-IDF_Getting_Started.pdf 
-...
+|..
 |.
 |ls
 cd \\wsl$\Ubuntu
 |ls
 cd "AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\
-lsd 
+|sd 
 cd LocalState\
 |s
 |s
@@ -11332,7 +11332,7 @@ cd check_string_order\
 tcc check_string_order.c -o check_string_order_tcc.exe
 np check_string_order.c
 gccrun check_string_order.c
-d:
+|:
 cd Videos\
 et -l 1
 ffmpeg -i m9ded_.webm -vn -acodec copy m9ded.opus
@@ -11341,7 +11341,7 @@ history | rg ffmpeg
 ffmpeg -ss 82 -t 3 -i m9ded.mp4.webm -vn -acodec copy -y -c copy krt_lahab.
 ffmpeg -ss 82 -t 3 -i m9ded.mp4.webm -vn -acodec copy -y -c copy krt_lahab.ogg
 |ls
-cd Documents\Gits\
+|d Documents\Gits\
 git clone https://github.com/ltratt/multitime
 cd multitime\
 |ls
@@ -11360,7 +11360,7 @@ yt-dlp --extract-audio https://www.youtube.com/watch?v=bacD5a7a8i4 -o amatakum.o
 yt-dlp https://www.youtube.com/watch?v=bacD5a7a8i4 -o amatakum.ogg
 |ls
 ffmpeg -ss 0 -t 6 -i amatakum.ogg.webm -vn -acodec copy -y -c copy krt_lahab.ogg
-c:
+|:
 |ls
 cd Documents\C\operations_binaires\
 np operations_binaires.c
@@ -11399,7 +11399,7 @@ echo %cd% | clip
 |s
 |vim "Tp1_CSS_Initial.html" 
 "C:\Program Files\SumatraPDF\SumatraPDF.exe" "tp1 .pdf"
-\
+|
 cd "Chrome extensions\
 git clone https://github.com/LouisLanganay/youtube-hide-blocker-popup 
 |vim "Tp1_CSS_Initial.html" 
@@ -11410,7 +11410,7 @@ nvim "Tp1_CSS_Initial.html"
 |link update
 |link update
 z tp
-clink update
+|link update
 |ls
 nvim "Tp1_CSS_Initial.html" style.css
 md images
@@ -11418,7 +11418,7 @@ move *.jpg images
 |s
 |t
 Atelier_Nouveauté_HTML5.docx
-cd Documents\C\
+|d Documents\C\
 md personne_chanceuse & cd personne_chanceuse
 nvim personne_chanceuse.c
 |ccrun personne_chanceuse.c 
@@ -11479,7 +11479,7 @@ notepad upload_keepass_kdbx.bat
 |\upload_keepass_kdbx.bat 
 |\upload_keepass_kdbx.bat 
 |ls
-RefreshEnv
+|efreshEnv
 |\upload_keepass_kdbx.bat 
 |\upload_keepass_kdbx.bat 
 |\upload_keepass_kdbx.bat 
@@ -11500,17 +11500,17 @@ RefreshEnv
 |\upload_keepass_kdbx.bat C:\Users\Administrator\Google_Drive\MohamedZakariaOuertani\Keepass\pixcs.kdbx
 |\upload_keepass_kdbx.bat C:\Users\Administrator\Google_Drive\MohamedZakariaOuertani\Keepass\pixcs.kdbx
 .\upload_keepass_kdbx.bat C:\Users\Administrator\Google_Drive\MohamedZakariaOuertani\Keepass\pixcs.kdbx
-pushd %USERPROFILE%\documents\gits 
+|ushd %USERPROFILE%\documents\gits 
 |ls
 |s
-cd QuickWinSetup\
+|d QuickWinSetup\
 |s
 |ls
 |s
 |t
-s
+|
 |s
-np backup.bat 
+|p backup.bat 
 np scripts\set_vars.bat 
 boxes
 |ls
@@ -11523,7 +11523,7 @@ np install.bat
 |ls
 |s
 notepad backup.bat 
-ls
+|s
 |s configs\
 echo configs\winget_packages.json 
 tpe configs\winget_packages.json 
@@ -11537,7 +11537,7 @@ ls C:\Users\Administrator\AppData\Local\clink -1 -a
 echo c:\Users\%USERNAME%/Documents/Gits/QuickWinSetup/configs/clink_filelist
 type c:\Users\%USERNAME%/Documents/Gits/QuickWinSetup/configs/clink_filelist
 np c:\Users\%USERNAME%/Documents/Gits/QuickWinSetup/configs/clink_filelist
-cd scripts\
+|d scripts\
 np copy_clink_conf.bat
 es rsync.bat
 np C:\Apps\rsync.bat
@@ -11545,8 +11545,8 @@ es *clink*bat
 es clink.bat
 |ls
 |t
-..
-et
+|.
+|t
 rg rsync
 np scripts\install_confs.bat
 echo + *>configs\all
@@ -11558,16 +11558,3196 @@ notepad configs\all
 |\scripts\backup_confs.bat 
 et  configs\nvim\
 |it add .
-git add .
-git commit -m "Added Neovim Config"
-git push
+|it add .
+|it commit -m "Added Neovim Config"
+|it push
 cd Documents\Gits\QuickWinSetup\
-git remote show origin
+|it remote show origin
 quic
-cls
+|ls
 np clink\filelist 
 np configs\clink\filelist 
 np configs\clinkfilelist 
 np configs\clink\clink_filelist 
+|p scripts\backup_confs.bat 
+|\scripts\backup_confs.bat 
+git add .
+|it commit -m "Added Neovim Config"
+|it push
+git init
+git branch -M master
+git remote add origin https://github.com/Zakaria-ouertani/WinSetup.git
+git push -u origin master*
+git push -u origin master
+git commit -m "Added Neovim Config"
+|it push
+|s
+type ex.err 
+del ex.err 
+|sl
+cd C:\Program Files\Common Files\microsoft shared\ClickToRun
+|s
+|ir
+|el office*
+del office*
+|ls
+dir *.exe
+|d
+docs
+cox
+|ox
+|ls
+cd "9raya\Supports ISETSO\Math\Cours\
+|s
+".\Chapitre 1 - Matrices.doc" 
+|.
+|t
+".\TD\Math Serie N1.doc" 
+|df "Cours\Chapitre 1 - Matrices.pdf" 
+pdf "Cours\Chapitre 2 - Développements limités  .pdf" 
+pdf "TD\Math Serie N1.pdf" 
+pdf "Cours\Chapitre 1 - Matrices.pdf" 
+pip install pip install slushie  
+ ┌~  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ [3GiB/4GiB] [ 19:22:19 ] ╮ └> pip install pip install slushie                                                                                              ╯ 
+|d Documents\Gits\
+gc https://github.com/10xJSChad/climenu/
+cd climenu\
+gcc climenu.c 
+gcc climenu.c -o climenu.exe
+wsl
+|ev -h
+which rev 
+which recover
+ pipx run recoverpy
+pipx run recoverpy
+|ecoverpy
+pipx install recoverpy
+recoverpy
+pipx uninstall recoverpy
+promnesia
+promnesia serve
+|ls
+|t
+|ls
+|ox
+fox
+pushd %USERPROFILE%\Documents
+|d 9raya\
+|t
+|ls
+robocopy /h
+robocopy
+|obocopy /?
+|ls
+robocopy /?
+|ls
+|ls
+|ls
+|ls
+which cmmon32
+|ls
+|.
+|d Html\
+md "!HTMX"
+cd htmx
+cd "!htmx"
+|ls
+md test1 & cd test1
+|ls
+md scripts
+cd scripts\
+wget https://unpkg.com/htmx.org/dist/htmx.min.js
+|ls
+type htmx.min.js 
+|ls
+bat htmx.min.js 
+|ls
+|t
+bat -h
+|ls
+|.
+|vim .
+|d "Documents\Html\!HTMX\
+|ls
+|vim .
+|ls
+|d "Documents\Html\!HTMX\
+|vim
+|ls
+|vim
+|ls
+cd AHK_Scripts\
+|s
+cd "WinStore Applinks\
+|s
+type "Windows Terminal.lnk" 
+|ls
+|ls
+cd "Documents\Html\!HTMX\
+|ls
+cd test1\
+|vim .
+which ls
+which which
+which lsd
+wo brave
+es brave.exe
+|C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" --disable-web-security and --user-data-dir flags
+"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" --disable-web-security and --user-data-dir flags
+"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" --disable-web-security --user-data-dir 
+|vim .
+live-server.cmd .
+tail -h
+wo tail
+which tail
+c:\Apps\Yori\tail.exe 
+c:\Apps\Yori\tail.exe -h
+c:\Apps\Yori\tail.exe /?
+rev
+rev -h
+tac
+tac -h
+|ls
+which tac
+|ls
+cd AppData\Local\nvim\lua\pip\
+nvim remaps.lua 
+......
+es "n counter"
+cd dis
+cd disb
+|d Documents\disbots\niggacount\
+|s
+history | rg node
+|ode .
+cd Documents\disbots\niggacount\
+git remote show origin
+|vim index.js 
+|vim index.js 
+|ode .
+snapjaw "D:\Games\wow_servers\Turtle\Interface\Addons" installhttps://github.com/shagu/ShaguDPS/ 
+snapjaw "D:\Games\wow_servers\Turtle\Interface\Addons" install https://github.com/shagu/ShaguDPS/ 
+nvim index.js 
+node .
+snapjaw "D:\Games\wow_servers\Turtle\Interface\Addons" https://github.com/shirsig/unitscan 
+snapjaw "D:\Games\wow_servers\Turtle\Interface\Addons" install https://github.com/shirsig/unitscan 
+gc https://github.com/shirsig/unitscan
+git clone https://github.com/shirsig/unitscan "D:\Games\wow_servers\Turtle\Interface\Addons\unitscan" 
+byenow --yes --yolo --staged --show-bytes "D:\Games\wow_servers\Turtle\Interface\Addons\unitscan" 
+snapjaw "D:\Games\wow_servers\Turtle\Interface\Addons" install https://github.com/shirsig/unitscan-vanilla
+|d Documents\C\
+md sane_input & cd sane_input
+nvim sane_input.c
+|ccrun sane_input.c
+|ls
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ls
+|ccrun sane_input.c
+|ccrun sane_input.c
+|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|   int length = start_length;
+|   size_t i = 0;
+|   char c;
+|   while ((c = getchar()) != '\n') {
+|ls
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ls
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+void input(char *p_ch, size_t start_length) {
+    int length = start_length;
+    size_t i = 0;
+    char c;
+    while ((c = getchar()) != '\n') {
+|ls
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+|ccrun sane_input.c
+gccrun sane_input.c
+|ls
+|ls
+|d Documents\
+pdf "9raya\Supports ISETSO\Algo\TD\Support TD Algo 1.pdf" 
+cd C\sane_input\
+|s
+|p sane_input.
+np sane_input.c
+|.
+md word_guess & cd word_guess
+nvim word_guessc
+|vim word_guess.c
+..\sane_input\
+gcc sane_input. -o si.exe 6S
+gcc sane_input. -o si.exe -S
+gcc sane_input.c -o si.exe -S
+|s
+|cc sane_input.c -S
+|s
+np sane_input.
+|p sane_input.s 
+|p sane_input.s 
+gcc sane_input.c -S -O3
+np sane_input.s 
+gcc sane_input.c -S
+|ls
+z word
+|ls
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ls
+|ls
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|d word_guess\
+|ccrun word_guess.c 
+|ls
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ls
+|ls
+|ls
+|ccrun word_guess.c 
+|ls
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ls
+|ls
+|ls
+|ccrun word_guess.c 
+|ls
+|ccrun word_guess.c 
+|ls
+|ls
+|ccrun word_guess.c 
+|ls
+|ccrun word_guess.c 
+|ls
+|ls
+|ccrun word_guess.c 
+|ls
+|ls
+|ccrun word_guess.c 
+|
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|
+a
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+|ls
+|ccrun word_guess.c 
+|ccrun word_guess.c 
+gccrun word_guess.c 
+|ls
+gcc word_guess.c -S
+|p word_guess.s 
+np word_guess.s 
+curl parrot.live
+|ls
+cd Documents\C\word_guess\
+type word_guess.c | clip
+np word_guess.sc
+np word_guess.c
+|.
+pdf "..\9raya\Supports ISETSO\Algo\TD\Support TD Algo 1.pdf" 
+which neovim
+|hich nvim
+cd C:\Users\Administrator\AppData\Local\nvim\
+rg ensure_packer
+|t
+setx %PATH% "%PATH%;D:\Games\wow_servers\Turtle\"
+setx PATH "%PATH%;D:\Games\wow_servers\Turtle\"
+|cho %path%
+|cho %path%
+|cho %path%
+|cho %path%
+|efreshEnv
+|cho %path%
+echo C:\Program Files\BraveSoftware\Brave-Browser\Application;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\program files\graphicsmagick;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\PROGRA~2\COMMON~1\Oracle\Java\javapath;c:\PROGRA~2\clink;C:\PROGRA~1\COMMON~1\Oracle\Java\javapath;C:\Apps\uutils;C:\PROGRA~1\MOZILL~1;C:\Apps;C:\Apps\wget2\bin;C:\Apps\Yori;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Apps\busybox\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Apps\Adb;C:\PROGRA~3\CHOCOL~1\bin;C:\PROGRA~1\WindowsPowerShell\Scripts;C:\PROGRA~2\gnupg\bin;C:\PROGRA~1\dotnet\;C:\PROGRA~1\GTools;C:\PROGRA~1\Pandoc\;C:\PROGRA~1\Git\cmd;C:\PROGRA~1\CMake\bin;C:\PROGRA~1\nu\bin\;C:\PROGRA~2\MICROS~2\2019\BUILDT~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64;C:\PROGRA~1\Go\bin;C:\PROGRA~1\Calibre2\;C:\PROGRA~1\TIDY58~1.0\bin;C:\PROGRA~1\AUTOTR~1;C:\PROGRA~1\nodejs\;C:\PROGRA~1\GITHUB~1\;C:\Apps\WKHTML~1\bin;C:\PROGRA~2\Ncrack;C:\PROGRA~2\Nmap;C:\Apps\busybox;C:\PROGRA~1\WINHTT~1\;C:\Apps\mpv;C:\PROGRA~1\SMARTM~1\bin;C:\PROGRA~2\dotnet\;C:\PROGRA~1\MiKTeX\miktex\bin\x64\;C:\PROGRA~1\gs\GS1000~1.0\bin;C:\PROGRA~1\gnuplot\bin;c:\Apps\Lesko\publish\;C:\Apps\BLADEL~1;C:\Apps\Nyssa;C:\PROGRA~1\POWERS~1\7\;C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\ProgramData\ComposerSetup\bin;C:\Apps\KiXtart\;C:\Apps\Phix;C:\Apps\xampp\php;C:\Program Files\WezTerm;C:\Program Files\Git\cmd;C:\Program Files (x86)\gnupg\bin;C:\Program Files\Go\bin;C:\Program Files\CMake\bin;C:\Program Files\nu\bin\;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Program Files\gsudo\Current;C:\Program Files\gnuplot\bin;C:\Program Files\PowerShell\7\;C:\Program Files\LLVM\bin;c:\Apps\tcc\;C:\Users\Administrator\scoop\apps\gcc\current\bin;C:\Users\Administrator\scoop\shims;C:\Users\ADMINI~1\AppData\Local\Programs\Python\Python3\Scripts\;C:\Users\ADMINI~1\AppData\Local\Programs\Python\Python3\;C:\Users\ADMINI~1\scoop\shims;C:\Users\ADMINI~1\scoop\shims;C:\Users\ADMINI~1\scoop\shims;C:\Users\ADMINI~1\CARGO~1\bin;C:\users\ADMINI~1\LOCAL~1\bin;C:\Users\ADMINI~1\go\bin;C:\Users\ADMINI~1\AppData\Local\MICROS~1\WINDOW~1\;C:\Users\ADMINI~1\AppData\Local\clink;C:\Users\ADMINI~1\AppData\Roaming\npm;C:\Users\ADMINI~1\MiKTeX\miktex\bin\x64\;C:\Users\ADMINI~1\AppData\Roaming\npm;C:\Users\ADMINI~1\AppData\Local\Programs\VSCodium\bin;C:\Users\Administrator\go\bin;C:\Users\ADMINI~1\AppData\Roaming\npm;C:\Users\ADMINI~1\AppData\Local\bob\nvim-bin;C:\Users\Administrator\AppData\Local\bob\nvim-bin;C:\Users\Administrator\AppData\Local\bob\nvim-bin;C:\Users\Administrator\AppData\Local\bob\nvim-bin;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Links;C:\Apps\poppler;C:\Users\Administrator\go\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\.dotnet\tools
+|ls
+echo %path%
+|ls
+|d Documents\C\
+md Chiffre_de_vigenere & cd Chiffre_de_vigenere
+|d AppData\Local\nvim\lua\
+|s
+|.
+|s
+cd lua\
+|s
+cd pip\
+|s
+|ype init.lua 
+|ls
+|..
+|s
+type init.lua 
+type lua\pip\init.lua 
+|ls
+|ree
+|t
+cd lua\pip\
+np packer.lua 
+|p init.lua 
+|..
+|.
+nvim chiffre_vigenere.c
+|d nvim
+|t
+np init.lua 
+tree /F
+tree /F /A
+|ls
+|t
+np lua\pip\remaps.lua 
+|vim lua\pip\remaps.lua 
+nvim "AppData\Local\nvim\lua\pip\packer.lua" 
+|its
+cd SudoQ\
+|it instaweb
+|tart c:\Apps\lighttpd\lightsvc.exe
+start c:\Apps\lighttpd\lightsvc.exe
+nssm install lightpd
+nssm install lighttpd
+|it instaweb
+nssm start lighttpd
+|it instaweb
+|tart c:\Apps\lighttpd\lighttpd-service-install.exe
+cd c:\Apps\lighttpd\
+start c:\Apps\lighttpd\lighttpd-service-install.exe
+net helpmsg2182
+net helpmsg 2182
+|ls
+z 
+z sudo
+git instaweb
+git instaweb --httpd lighttpd
+git instaweb --http=webrick
+git instaweb --http=httpd
+git instaweb --http=lighttpd
+|ls
+"AppData\Local\nvim\lua\pip\
+|.
+nvim pip\remaps.lua 
+|.
+|vim lua\pip\remaps.lua 
+|vim lua\pip\remaps.lua 
+|vim lua\pip\remaps.lua 
+|d Documents\C\
+nvim Chiffre_de_vigenere\chiffre_vigenere.c 
+|vim sane_input\sane_input.c
+|..
+|d C
+nvim sane_input\sane_input.c
+|.
+nvim "Python\decomp_recursive.py
+|vim "Python\Cryptage_matrice\Cryptage_matrice.py
+nvim "Rust\hiddenonesooo\src\main.rs
+nvim "Python\Cryptage_matrice\Cryptage_matrice.py
+|ls
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+nvim after\plugin\renamer.lua 
+|ls
+|vim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\deviner.py
+|vim 
+|vim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\deviner.py
+|vim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\deviner.py
+nvim "C:\Users\Administrator\Documents\Python\deviner_nombres_1_caches\deviner.py
+|vim "C:\Users\Administrator\Documents\Rust\hiddenonesooo\src\show_table.rs" 
+|o rust
+|en C:\Users\ADMINI~1\CARGO~1\bin\rust-analyzer.exe rust-analyzerr.exe
+ren C:\Users\ADMINI~1\CARGO~1\bin\rust-analyzer.exe rust-analyzerr.exe
+wo rust
+nvim "C:\Users\Administrator\Documents\Rust\hiddenonesooo\src\show_table.rs" 
+|ls
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+|vim lua\pip\packer.lua 
+rmdir /?
+|ls
+tree §f
+tree /f
+type lua\pip\remaps.lua init
+|ls
+|vim
+cd AppData\Local\nvim\lua\
+|.
+|vim lua\pip\remaps.lua 
+|vim lua\pip\remaps.lua 
+nvim lua\pip\remaps.lua 
+|vim after\plugin\move.lua 
+nvim after\plugin\move.lua 
+|ls
+nvim lua\pip\packer.lua 
+echo>a
+type a
+nvim AppData\Local\nvim\lua\pip\packer.lua 
+|d AppData\Local\nvim\ && nvim lua\pip\packer.lua 
+|ox
+cd C
+|s
+cd word_guess\
+|vim word_guess.c
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua 
+nvim C:\Users\Administrator\AppData\Local\nvim\after\plugin\builder.lua 
+|vim word_guess.c
+nvim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua 
+|vim word_guess.c
+bob use x.x.x
+bob use 0.9.x
+bob
+bob use
+bob use --help
+|ob use 0.9.4
+|vim word_guess.c
+nvim word_guess.c
+|link update
+bye C:\Users\ADMINI~1\AppData\Local\Temp\clink\updater\updating
+del C:\Users\ADMINI~1\AppData\Local\Temp\clink\updater\updating
+clink update
+cd Documents\C\
+cd gray_code_counter\
+|ls
+|vim gray_code_counter.c 
+del graycount.exe 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|d Documents\c\gray_code_counter\
+|vim gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|vim gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ls
+|ccrun gray_code_counter.c 
+|ls
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+cd "Documents\Html\TI_1.3\CSS_TP1\images\
+md TP_HTML_CSS_Peinture & cd TP_HTML_CSS_Peinture
+|d | clip  
+|ls
+|s
+nouveau_Livre.jpg 
+TD3.docx 
+es firefox.exe
+|d "C:\Program Files\Mozilla Firefox\
+|g "C:/Users/Administrator/Documents/Gits/StartPages/Bento/index.html"
+np autoconfig.cfg
+|..
+cd Users\Administrator\AppData\Local\Mozilla\Firefox\Profiles\7g7d0ibh.Zakaria\
+rg "C:/Users/Administrator/Documents/Gits/StartPages/Bento/index.html"
+|ls
+cd Documents\c\gray_code_counter\
+type gray_code_counter.c | clip
+nv 
+nvim gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+|ls
+|ccrun gray_code_counter.c 
+|ccrun gray_code_counter.c 
+gccrun gray_code_counter.c 
+|irefox -no-remote -ProfileManager
+cd AppData\Local\Mozilla\Firefox\Profiles\q0vcqkm4.MorePrivate\
+byenow --yes --yolo --staged --show-bytes .
+wget https://raw.githubusercontent.com/arkenfox/user.js/master/user.js
+cd "C:\Program Files\Mozilla Firefox\
+|s
+cd browser\features\
+|s
+|..
+es -path . pocker
+es -path . pocket
+|irefox -no-remote -ProfileManager
+|irefox -no-remote -ProfileManager
+firefox -no-remote -ProfileManager
+cd "Documents\9raya\Supports ISETSO\Math\
+|t
+".\Cours\Chapitre 1 - Matrices.pdf"
+".\TD\Math Serie N1.pdf" 
+powercfg.exe /hibernate o
+|owercfg.exe /hibernate on
+|owercfg.exe /hibernate on
+powercfg.exe /hibernate on
+notify-send -h
+notify-send -i warning
+|otify-send -i warning "Gaz" "Rab el Gaz"
+|otify-send -i warning "Gaz" "Rab el Gaz"
+notify-send -i warning "Gaz" "Rab el Gaz"
+timeout -t 5 & notify-send -i warning "Gaz" "Rab el Gaz"
+history | rg warning
+history | rg info
+apps
+nvim remind
+|vim remind.bat
+|vim remind.bat
+|emind -h
+|vim remind.bat
+|vim remind.bat
+|emind -h
+|emind -h
+|emind -h
+|emind -h
+|ls
+|ls
+|emind -h
+|ls
+|emind -h
+|ls
+|ls
+|emind -h
+|ls
+|emind -h
+|emind -h
+|emind -h
+|ls
+|ls
+|emind -h
+|emind -h
+|emind -h
+|emind -h
+|emind -h
+nvim remind.bat
+|emind -h
+|emind -h
+|emind -h
+ls *.bat
+rg IF
+remind -h
+|emind h
+remind 3os
+|emind h
+remind h
+remind remind.bat 
+nvim remind.bat 
+es FreakC.bat
+es FreakC.bat | clip
+ls C:\Apps\FreakC\FreakC.bat
+ls C:\Apps\FreakC\
+mklink FreackC.bat FreakC\FreakC.bat 
+del FreackC.bat 
+mklink FreakC.bat FreakC\FreakC.bat 
+FreakC.bat
+|reakc remind.fcland 
+|ls
+freakc remind.fcland 
+|reakc remind
+ls remind*
+del remind.fcland.bat 
+freakc remind.fclang
+|reakc "remind.fclang"
+freakc "remind.fclang" --compile
+ren remind remind.fclang
+freakc "remind.fclang"
+|reakc remind
+|reakc remind
+remind.bat 
+|reakc remind
+freakc remind
+remind
+|ls
+|ls
+np remind.
+np remind.bat 
+timeout -t 60 & notify-send -i warning "Gaz" "Rab el Gaz"
+winget uninstall windows.terminal
+winget uninstall windowsterminal
+winget list | rg terminal
+winget list | rg Terminal
+winget uninstall Microsoft.WindowsTerminal 
+winget uninstall Microsoft.WindowsTerminal --source store
+winget uninstall Microsoft.WindowsTerminal --source msstore
+|elbin
+|C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.2822.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"
+"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.2822.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"
+winget uninstall Microsoft.WindowsTerminal
+cd C:\User\Administrator\desktop\portable_apps\windows_terminal
+|.
+|s
+|
+move C:\User\Administrator\desktop\portable_apps\windows_terminal C:\Users\Administrator\desktop\portable_apps\windows_terminal
+rd C:\User\Administrator\desktop\portable_apps\windows_terminal
+rd C:\User\Administrator\desktop\portable_apps\
+rd C:\User\Administrator\desktop\
+rd C:\User\
+bye C:\User\
+z user
+cd C:\Users\Administrator\desktop\portable_apps\windows_terminal
+.\WindowsTerminal.exe 
+|ls
+|ls
+|vim Documents\C\array_of_chars\array_of_chars.c
+nvim Documents\C\array_of_chars\array_of_chars.c
+|ls
+for 
+|or /?
+for /?
+|
+|ls
+|ls
+ping 192.168.1.13
+ping 192.168.1.13 -n
+ping -h
+ping 192.168.1.13 -t
+|ls
+cd "Documents\9raya\Supports ISETSO\Arch\
+pdf ARCH_CH1-v23-24.pdf ARCH_CH2-PERIPH-23-24.pdf ARCH_CH3-MEMOIRES-23-24.pdf 
+pdf "TDs\ARCH ORD -TD2-ISETSO-TI1-23-24.pdf" "TDs\ARCH ORD -TD2-ISETSO-TI1-23-24.pdf" 
+pdf "TDs\ARCH ORD -TD2-ISETSO-TI1-23-24.pdf" 
+pdf "TDs\ARCH ORD -TD1-ISETSO-TI1-23-24.pdf" 
+pdf Cours\ARCH_CH3-MEMOIRES-23-24.pdf 
+pdf Cours\ARCH_CH3-MEMOIRES-23-24.pdf Cours\ARCH_CH1-v23-24.pdf Cours\ARCH_CH2-PERIPH-23-24.pdf "TDs\ARCH ORD -TD1-ISETSO-TI1-23-24.pdf" "TDs\ARCH ORD -TD2-ISETSO-TI1-23-24.pdf" 
+|ls
+\
+tree
+|ls
+|t
+|ls
+color a
+|ls
+ipconfig /?
+ipconfig /displaydns
+|ls
+lsd 
+|ls
+|ir
+sdir
+|ls
+|t
+|ox
+|t
+etcls
+|ls
+|d 9raya\
+|t
+|ls
+ping lajmi.sed9i
+ping lajmi.sed9i.com
+ping elyescom
+ping elyes.com
+ping adem.com
+ping anwer.com
+ping ousema.com
+|ls
+|.
+|d c
+nvim zab.c
+gccrun zab.c 
+gcc -S zab.c
+|cc -S -O3 zab.c
+gcc -S -O3 zab.c
+nvim zab.s
+|ls
+del zab.*
+|ls
+|s
+|ls
+|vim tab.html
+tab.html
+nvim tab.html
+tsnap install https://github.com/Haaxor1689/Cartographer
+tsnap install https://gitlab.com/knights-of-sunwell/carbonite-vanilla
+|:
+cd Games\wow_servers\Turtle\Interface\AddOns\
+ls *acehook*
+es -path . *acehook*
+cd Bartender2\Libs\AceHook-2.1\
+|s
+ren AceHook-2.1.lua AceHook-2.1.lua.bak
+|ls
+pbpaste > AceHook-2.1.lua
+type AceHook-2.1.lua
+|ls
+del AceHook-2.1.lua
+ren AceHook-2.1.lua.bak AceHook-2.1.lua
+tsnap install https://github.com/Lexiebean/AtlasLoot/
+np AceHook-2.1.lua 
+|ls
+~
+|ls
+|ls
+|y
+|d Documents\Python\
+md suite_pell & cd suite_pell
+nvim pell.py
+|y pell.py 
+|y pell.py 
+|y pell.py 
+|y pell.py 
+|y pell.py 
+|y pell.py 
+|y pell.py 
+|y pell.py 
+py pell.py 
+nircmd.exe emptybin
+|ls
+|..
+cd "Html\
+|s
+rps.htm
+|.
+cd 9raya\
+|.
+cd Html\
+cd TI_1.3\CSS_TP1\
+|.
+md DS1_2021 & cd DS1_2021
+|ls
+nvim index.html style.css
+bye "d:\Games\Game Files\
+byenow --yes --yolo --staged --show-bytes "d:\Games\Game Files\
+cd Documents\Rust\hiddenonesooo\src\
+nvim main.rs 
+|d AppData\Local\nvim\ && nvim lua\pip\packer.lua 
+|ls
+|vim 
+|vim lua\pip\packer.lua lua\pip\remaps.lua init.lua 
+nvim lua\pip\packer.lua lua\pip\remaps.lua init.lua 
+|vim 
+nvim after\plugin\undotree.lua n
+rg undotree
+rg undo
+|vim lua\pip\init.lua 
+nvim after\plugin\auto-session.lua 
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim 
+|vim 
+|vim 
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim 
+nvim 
+|ls
+|...
+cd Documents\LaTeX\
+md DS_ISET & cd DS_ISET&& md DS1 & cd DS1&& md DS1_Math & cd DS1_Math
+|ls
+|s
+nvim DS1_Math.tex
+nvim "..\..\..\Calcul limites\Calcul limites.tex" 
+|s
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+pushd C:\Users\Administrator\AppData\Local\nvim
+|vim
+| math
+|vim
+cls 
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|vim
+| nvim
+|vim
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+| nvim
+cd
+|ls
+|vim
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+:q
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+|ls
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+| math
+|ls
+|s
+|ls
+|ls
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|vim
+| nvim
+|vim
+| math
+|ls
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|vim
+| nvim
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+| math
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|vim
+| math
+|vim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+|vim
+|vim
+|vim
+| nvim
+|ls
+nvim lua\pip\packer.lua lua\pip\remaps.lua lua\pip\init.lua init.lua 
+,vim
+|ls
+|vim
+| math
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|vim
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|vim
+| nvim
+|vim
+| math
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+| nvim
+|vim
+| math
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+| nvim
+|vim
+| math
+| nvim
+|vim
+| math
+|vim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+| math
+| nvim
+|vim
+|vim
+|ls
+| math
+nvim "..\..\..\Calcul limites\Calcul limites.tex"  DC1_Math.tex 
+|elatex DC1_Math.tex -o DC1_Math.pdf
+winget uninstall miktex
+es miktexc
+|s miktex
+|ye "C:\Program Files\MiKTeX"
+bye "C:\Program Files\MiKTeX"
+es miktex
+bye C:\Users\Administrator\MiKTeX
+es mitkexc
+es mitkex
+|ls
+delbin
+|ls
+z math
+|vim
+xelatex DC1_Math.tex -o DC1_Math.pdf
+|vim
+|ls
+nvim DC1_Math.typ
+history | action
+rg --help
+rg --help | rg case
+|istory | rg -i action
+|ls
+clink set history.max_lines clear 100000
+clink set history.max_lines 100000
+history | rg -i action
+history
+|ls
+|d Documents\C
+md nombres_amis & cd nombres_amis
+|vim nombres_amis.c
+nvim nombres_amis.c
+|ccrun nombres_amis.c 
+|ccrun nombres_amis.c 
+|ccrun nombres_amis.c 
+|ccrun nombres_amis.c 
+gccrun nombres_amis.c 
+|.
+cd adriann.github.io_programming_problems\
+|ls
+|s
+nvim 13_alternate_array_concat\13_alternate_array_concat.
+nvim 13_alternate_array_concat\13_alternate_array_concat.c
+ren 13_alternate_array_concat 10_alternate_array_concat
+ren 10_alternate_array_concat\13_alternate_array_concat.c 10_alternate_array_concat.c
+|t
+del 10_alternate_array_concat\13_alternate_array_concat.exe 
+|ls
+|s
+md 11_merge_sortedlists_sorted & cd 11_merge_sortedlists_sorted
+nvim 11_merge_sorted_lists_sorted.c
+nvim ..\10_alternate_array_concat\10_alternate_array_concat.c 
+|ccrun.bat 11_merge_sorted_lists_sorted.c 
+|ccrun.bat 11_merge_sorted_lists_sorted.c 
+gccrun.bat 11_merge_sorted_lists_sorted.c 
+|.
+cd 10_alternate_array_concat\
+|ccrun 10_alternate_array_concat.c 
+|ccrun 10_alternate_array_concat.c 
+cd ..\11_merge_sortedlists_sorted\
+|ls
+|s
+del 11_merge_sorted_lists_sorted.
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+gccrun 10_alternate_array_concat.c 
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|al
+which cal
+cal
+date & cal
+|ate /?
+date /t & cal
+date /t 
+date /?
+|ls
+|ls
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun.bat 11_merge_sorted_lists_sorted.c
+|.
+md 12_rotate_lis_by_k_elements
+nvim .
+cd 12_rotate_lis_by_k_elements\
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+gccrun.bat 11_merge_sorted_lists_sorted.c
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+pause /T 5
+|imeout -t 300 & notify-send -i warning "Gaz" "Rab el Gaz"
+|imeout -t 300 & notify-send -i warning "Gaz" "Rab el Gaz"
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|imeout -t 300 & notify-send -i warning "Gaz" "Rab el Gaz"
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+timeout -t 300 & notify-send -i warning "Gaz" "Rab el Gaz"
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+|ccrun 12_rotate_lis_by_k_elements.c 
+gccrun 12_rotate_lis_by_k_elements.c 
+|d Documents\Gits\
+git clone https://github.com/tsoding/seroosta
+git clone https://github.com/tsoding/seroost
+|.
+|d c
+md fire_emergency & cd fire_emergency& nvim fire_emergency
+nvim fire_emergency.c
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|:
+cd Games\wow_servers\
+history | rg robocopy
+robocopy World_of_Warcraft_3.3.5a\ Project_Epoch\ /MIR /MT:3 /J
+gcc -h
+gcc --help
+gcc --help | bat
+|ls
+gits
+gc https://github.com/wmcbrine/PDCurses --depth 1
+cd PDCurses\
+|s
+set PDCURSES_SRCDIR=.\build
+|d build
+cd wincon\
+|s
+|ake -f Makefile
+type Makefile
+|ls
+|ake -f Makefile
+md build
+|ake -f Makefile
+|t
+es libobjs.mif
+git
+pushd %USERPROFILE%\documents\gits 
+|s
+pushd
+|ls
+pushd /?
+cd PDCurses\wincon\
+|ake -f Makefile
+ls ..
+|t
+type border.o 
+|d Documents\c
+vim MakeFile_template
+ren MakeFile_template MakeFile
+vim MakeFile
+|vim MakeFile
+ren MakeFile Makefile 
+|vim MakeFile
+gcc --help | rg -W
+gcc --help | rg "-W"
+gcc --help | rg ^-W
+gcc --help | rg W
+clang --help | rg Wextra
+clang --help
+clang --help | rg Wall
+clang --help | rg -i Wall
+clang --help | rg -i W
+clang --help | rg W
+nvim MakeFile
+|d fire_emergency\
+gcc -Wall -Wextra -std=c11 -pedantic -ggdb fire_emergency.c -o fe.exe
+np test.c
+|ccrun test.c 
+|ccrun test.c 
+|\test
+.\test
+|ccrun test.c 
+|ccrun test.c 
+gccrun test.c 
+ls c:\Games\wow_servers\
+et c:\Games\wow_servers\
+byenow --yes --yolo --staged --show-bytes c:\Games\wow_servers\
+|ls
+|.
+np Makefile 
+es gccrun
+np C:\Apps\gccrun.bat
+cd fi
+cd fire_emergency\
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ccrun fire_emergency.c 
+|ls
+|ccrun fire_emergency.c 
+|ls
+|ccrun fire_emergency.c 
+|ls
+gccrun fire_emergency.c 
+|ls
+tsnap install https://github.com/Road-block/AttackBar
+taskkill explorer
+taskkill /IM explorer
+taskkill /IM explorer.exe
+|askkill /IM explorer.exe /f
+exploer
+|xplorer
+|ls
+np Downloads\struct.html 
+tsnap install https://github.com/Monteo/SuperMacro
+nvim Documents\C\Makefile 
+|ls
+cd AppData\Local\nvim\ && nvim lua\pip\remaps.lua 
+|ls
+|d Documents\c\
+d:
+cd Games\wow_servers\Turtle\
+.\vanilla-tweaks.exe 
+.\vanilla-tweaks.exe --help
+.\vanilla-tweaks.exe WoW.exe --nameplatedistance --no-fov --no-frilldistance --no-largeaddressaware --no-sound-in-background --no-soundchannels
+.\vanilla-tweaks.exe WoW.exe -no-fov --no-frilldistance --no-largeaddressaware --no-sound-in-background --no-soundchannels
+.\vanilla-tweaks.exe WoW.exe --no-fov --no-frilldistance --no-largeaddressaware --no-sound-in-background --no-soundchannels
+|\WoW_tweaked.exe 
+.\vanilla-tweaks.exe WoW.exe --no-fov --no-frilldistance --no-largeaddressaware --no-sound-in-background --no-soundchannels --no-farclip
+.\WoW_tweaked.exe 
+|ls
+|hich gcc
+cd C:\Users\ADMINI~1\scoop\apps\gcc
+|s
+c:
+|s
+cd current\
+|s
+cd x86_64-w64-mingw32\
+|s
+|.
+es gcc
+es gcc.exe
+C:\Apps\msys64\usr\bin\gcc.exe -V
+C:\Apps\msys64\usr\bin\gcc.exe -v
+|coop uninstall gcc
+scoop uninstall gcc
+|ls
+|ls
+RefreshEnv
+|hich gcc
+|ox
+cd c
+nvim copystr.c
+gccrun copystr.c 
+np check_string_order\check_string_order.c
+md maz_jmli & cd maz_jmli
+nvim maze_jmli.c
+|ccrun maze_jmli.c
+|ls
+gccrun maze_jmli.c
+|d Documents\c\
+md space_impact_cli
+md space_impact_cli & cd space_impact_cli
+|ls
+|s
+|ls
+nvim space_impact.c
+|ls
+|cc
+gcc -v
+|ls
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ls
+|ls
+|ccrun space_impact.c 
+|ls
+|ls
+|ccrun space_impact.c 
+|ls
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+|ccrun space_impact.c 
+gccrun space_impact.c 
+|ls
+|ccrun space_impact.c 4
+|ls
+|ccrun space_impact.c 4
+|ccrun space_impact.c 4
+|ls
+|ccrun space_impact.c 4
+|ls
+|ccrun space_impact.c 4
+|ccrun space_impact.c 4
+|ls
+|ccrun space_impact.c 4
+|ccrun space_impact.c 4
+exitgccrun space_impact.c 4
+|ccrun space_impact.c 4
+gccrun space_impact.c 4
+cd Documents\c\
+md sudoku & cd sudoku
+nvim sudoku.c ..\..\Rust\hiddenonesooo\src\show_table.rs 
+nvim sudoku.c print_matrix.c ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|vim sudoku.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+np AppData\Local\nvim\after\plugin\treesitter.lua 
+|ls
+nvim sudoku.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|ccrun sudoku.c 
+|s
+|ccrun sudoku.c 
+|ccrun sudoku.c 
+|y
+|ls
+|ls
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+gccrun sudoku.c 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|\sudoku.exe 
+|\sudoku.exe 
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|A
+|\sudoku.exe 
+|A
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|A
+|\sudoku.exe 
+|A
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+nvim AppData\Local\nvim\after\plugin\nvim-surround.lua 
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|ls
+cd Documents\C
+|d sudoku\
+|ls
+|vim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|vim
+|vim
+|vim
+c
+|ls
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku
+|\sudoku
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|A
+|\sudoku
+|A
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+.\sudoku
+|p C:\Users\Administrator\AppData\Local\nvim\after\plugin\nvim-surround.lua 
+nvim sudoku.c print_matrix.c print_matrix.h ..\..\Rust\hiddenonesooo\src\show_table.rs 
+|ls
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|ls
+|ls
+|d Documents\C\sudoku\
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|ls
+|vim
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|A
+|\sudoku.exe 
+|A
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+[A
+|\sudoku.exe 
+|p C:\Users\Administrator\AppData\Local\nvim\after\plugin\nvim-surround.lua 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|p C:\Users\Administrator\AppData\Local\nvim\after\plugin\nvim-surround.lua 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|here gcc
+which gcc
+|here gcc
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+where gcc
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|ls
+|ls
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+np C:\Users\Administrator\AppData\Local\nvim\after\plugin\nvim-surround.lua 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|d Documents\C\sudoku\
+|vim
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|vim
+|ls
+|vim
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+taskkill /IM explorer.exe /f
+|xplorer
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+explorer
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+.\sudoku.exe a
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|s
+|p sudoku.exe.stackdump 
+|s
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|d Documents\C\sudoku\
+|vim
+np C:\Users\Administrator\.config\starship.toml 
+|ls
+|s
+|ls
+copy ..\Makefile 
+|ake -f Makefile
+|ake -f Makefile
+|ls
+|s
+|ake -f Makefile
+which cc
+cc
+|ake -f Makefile
+make -f Makefile
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+cl print_matrix.c sudoku.c 
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+.\sudoku.exe ..
+.\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|ls
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......a
+|cc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+.\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......a
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231....
+gcc print_matrix.c sudoku.c -O3 sudoku.exe
+gcc print_matrix.c sudoku.c -O3 -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe 
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......
+.\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -o sudoku.exe
+.\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231....
+.\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.....
+.\sudoku.exe ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+gcc print_matrix.c sudoku.c -Wall -Wextra -std=c11 -pedantic -ggdb -o sudoku.exe
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|s
+del Makefile 
+del sudoku.exe.stackdump 
+|s
+dir /b
+cd Documents\C\sudoku\
+cd Documents\Rust\
+np test.rs
+|ustc test.rs 
+|ustc test.rs 
+|ustc test.rs 
+|ustc test.rs 
+|s
+./test
+.\test.exe 
+rustc test.rs 
+|ls
+|.
+cd Documents\c
+|d sudoku\
+|vim
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe 
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe 
+|\sudoku.exe -h
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe -h
+|ls
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|d Documents\C\sudoku\ & nvim
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+|\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c -o sudoku.exe
+.\sudoku.exe "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+cd Downloads\
+nvim "observation(1).c
+gcc "observation(1).c" -o "obs
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|ls
+|cc "observation(1).c" -o obs.exe
+|ls
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|ls
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|cc "observation(1).c" -o obs.exe
+|\obs.exe 
+|ls
+|\obs.exe 
+|ls
+gcc "observation(1).c" -o obs.exe
+|ls
+.\obs.exe 
+..\Documents\C\sudoku\
+|s
+|vim
+|vim sudoku.c print_matrix.c print_matrix.h
+|d AppData\Local\nvim\ && nvim lua\pip\packer.lua 
+C:\Users\Administrator\
+|d Documents\C\sudoku\ & nvim
+|vim sudoku.c print_matrix.c print_matrix.h
+|vim sudoku.c print_matrix.c print_matrix.h
+|vim
+|vim sudoku.c print_matrix.c print_matrix.h
+nvim sudoku.c print_matrix.c 
+|vim sudoku.c 
+nvim print_matrix.h
+|vim sudoku.c print_matrix.c print_matrix.h
+nvim print_matrix.c 
+|vim sudoku.c print_matrix.c print_matrix.h
+np print_matrix.c
+np s.c
+|cc s.c -o s.exe
+|cc s.c -o s.exe
+|cc s.c -o s.exe
+|cc s.c -o s.exe
+|cc s.c -o s.exe
+gcc s.c -o s.exe
+s
+....
+cd AppData\Local\nvim\ && nvim lua\pip\packer.lua 
+|d Documents\C\sudoku\ & nvim
+|vim sudoku.c print_matrix.c print_matrix.h
+|vim sudoku.c print_matrix.c print_matrix.h
+|vim sudoku.c print_matrix.c print_matrix.h
+|vim sudoku.c 
+|vim sudoku.c 
+|vim sudoku.c 
+|cc
+gcc
+|vim sudoku.c 
+|vim
+|vim
+|d Documents\C\sudoku
+|vim sudoku.c 
+cd AppData\Local\nvim\ && nvim
+|vim -V9dbg.log sudoku.c 
+nvim dbg.log 
+|ob use 0.9.5
+|ob use 0.9.4
+bob use 0.9.3
+bob use 0.9.2
+bob 
+|ob uninstall 0.9.4
+bob uninstall 0.9.3
+bob uninstall 0.9.2
+bo ls
+bob ls
+bob uninstall 0.9.1
+|ob uninstall 0.9.4
+bob erase
+|ls
+bob snc
+bob sync
+|vim sudoku.c 
+bob uninstall 0.9.4
+|ob use 0.9.4
+|vim sudoku.c 
+z lua
+|vim pip\packer.lua 
+|vim pip\packer.lua 
+bob use 0.9.1
+nvim pip\packer.lua 
+|vim sudoku.c 
+|vim -V9dbg.log sudoku.c 
+|p dbg.log 
+|..
+bye nvim-data\
+byenow --yes --yolo --staged --show-bytes nvim-data\
+cd nvim
+|vim lua\pip\packer.lua
+|vim lua\pip\packer.lua
+nvim lua\pip\packer.lua
+|vim sudoku.c 
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|.
+copy sudoku\sudoku.c
+|vim sudoku.c 
+del sudoku.c 
+cd sudoku\
+|vim sudoku.c 
+nvim sudoku.c 
+nvim -V9dbg.log sudoku.c 
+|p dbg.log 
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+np C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+nvim nvim --headless +PackerSync +qa 
+del "C:\Users\Administrator\AppData\Local\nvim\after\plugin\builder.lua" 
+del "C:\Users\Administrator\AppData\Local\nvim\after\plugin\devdocs.lua" 
+|ls
+byenow --yes --yolo --staged --show-bytes c:\Users\Administrator\AppData\Local\nvim-data\
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|s treesitter
+|yenow --yes --yolo --staged --show-bytes C:\Users\Administrator\AppData\Local\nvim-data\site\pack\packer\start\nvim-treesitter\ 
+|ls
+|s treesitter
+|ls
+|s treesitter
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter*
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-c\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-rust\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-sql\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-python\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-php\
+|ls
+es treesitter
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-html\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-css\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-javascript\
+bye C:\Users\Administrator\AppData\Local\nvim-data\tree-sitter-lua\
+|ls
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+nvim
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|ob use 0.9.4
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+which nvim
+cd C:\Users\ADMINI~1\AppData\Local\bob\
+|s
+|yenow --yes --yolo --staged --show-bytes v0.9.1\
+|yenow --yes --yolo --staged --show-bytes v0.9.1\
+|yenow --yes --yolo --staged --show-bytes v0.9.1\
+|s
+byenow --yes --yolo --staged --show-bytes v0.9.4
+byenow --yes --yolo --staged --show-bytes v0.9.1\
+|yenow --yes --yolo --staged --show-bytes v0.9.1 --list-errors
+byenow --yes --yolo --staged --show-bytes v0.9.1 --list-errors
+byenow --yes --yolo --staged --show-bytes --list-errors used 
+del used 
+|s
+ls nvim-bin\
+|.
+cd bob\
+bye nvim-bin\
+bob use 0.9.4
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+C:\Users\Administrator\AppData\Local\nvim\
+nvim after\plugin\compiler-nvim.lua 
+|vim after\plugin\overseer-nvim.lua 
+|..
+|.
+|d Documents\C\sudoku
+|vim sudoku.c print_matrix.c print_matrix.h
+|d Documents\C\sudoku
+nvim sudoku.c print_matrix.c print_matrix.h
+gcc print_matrix.c sudoku.c -o sudoku.exe
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+nvim after\plugin\overseer-nvim.lua 
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+.\sudoku.exe
+.\sudoku.exe-h
+.\sudoku.exe -h
+.\sudoku.exe -1
+|ls
+.\sudoku "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+.\sudoku --one ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+gcc print_matrix.c sudoku.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+copy C:\Users\Administrator\Downloads\print_matrix.c 
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|y
+|ls
+py
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+cd Documents\C\sudoku\ & nvim
+|ls
+nvim sudoku.c sudoku.h print_matrix.c print_matrix.h main.c 
+|vim main.c sudoku.c sudoku.h print_matrix.c print_matrix.h
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+.\sudoku.exe 
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|ls
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|ls
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+.\sudoku -1 ....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231.......
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+cd Documents\Gits\
+git clone https://github.com/tsoding/ded 
+bye ded\
+git clone https://github.com/tsoding/ded  --depth 1
+cd ded
+.\setup_dependencies.bat 
+np .\setup_dependencies.bat 
+|\build_msvc.bat 
+|s
+np build_msvc.bat 
+|\build_msvc.bat 
+|\build_msvc.bat 
+reloadui
+|efreshenv
+.\build_msvc.bat 
+cd Documents\C\sudoku\ & nvim main.c sudoku.c sudoku.h print_matrix.c print_matrix.h
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|d Documents\C\sudoku
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|ls
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|d Documents\C\sudoku
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|d Documents\C\sudoku
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|ls
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+.\sudoku -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+cd Documents\Python\
+cd "!Mouse3ded\
+md 7mem
+cd 7mem\
+md cryp1 & cd cryp1
+pbpaste > s.py
+pbpaste > src.txt
+copy C:\Users\Administrator\Downloads\untitled.ui
+|y s.py 
+np s.py 
+py s.py 
+|ls
+|d Documents\C\sudoku
+|vim main.c sudoku.c sudoku.h print_matrix.c print_matrix.h
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|vim main.c sudoku.c sudoku.h print_matrix.c print_matrix.h
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|d Documents\C\sudoku
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|ls
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|ls
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+gcc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+.\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|s
+|p sudoku.exe.stackdump 
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+np sudoku.exe.stackdump 
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+|cc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+gcc print_matrix.c sudoku.c main.c -o sudoku.exe -std=c11 && .\sudoku.exe -1 "....7.9.......2.5.....86.......6...915....2.....8..76..92....83..73.16.231......."
+cd Documents\C\sudoku
+|s
+nvim main.c sudoku.c sudoku.h print_matrix.c print_matrix.h
+cd Documents\
+mcd Advent_Of_Code\Advent_Of_Code_2023
+|..
+md Advent_Of_Code\Advent_Of_Code_2023 & cd Advent_Of_Code\Advent_Of_Code_2023
+|ls
+|s
+md Advent_Of_Code_2023_Day1 & cd Advent_Of_Code_2023_Day1
+|vim "Trebuchet?!.c"
+|vim "Trebuchet?!.c"
+|vim "Trebuchet.c"
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|p test.txt 
+|p test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|p test.txt 
+|p test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|vim "Trebuchet?!.c"
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ls
+|ls
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+nvim "Trebuchet?!.c"
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+np Trebuchet.
+|p sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|wa
+:wa
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+shutdown /s /hybrid /t 0 & exit
+cd Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day1\
+|ccrun Trebuchet.c sample.txt 
+|s
+del Trebuchet.exe.stackdump
+md Part_1
+mv * Part_1\
+|s
+|t
+move *.txt Part_1\
+move *.exe Part_1\
+move *.c Part_1\
+|t
+md Part_2 & cd Part_2
+|bpaste > test.txt
+|bpaste > sample.txt
+|p sample.txt 
+np test.txt 
+nvim "Trebuchet.c"
+|vim "Trebuchet.c" ..\Part_1\Trebuchet.c
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+..\Part_2
+|.\Part_2\
+|ccrun Trebuchet.c sample.txt 
+..\Part_1
+|.\Part_1\
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ls
+|.\Part_2\
+|s
+|ype test.txt 
+..\Part_1\
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|\Trebuchet.exe sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|\Trebuchet.exe sample.txt 
+|\Trebuchet.exe sample.txt 
+|\Trebuchet.exe sample.txt 
+|\Trebuchet.exe sample.txt 
+|\Trebuchet.exe sample.txt 
+|\Trebuchet.exe sample.txt 
+|\Trebuchet.exe sample.txt 
+time .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+..\Part_2\
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|s
+|ype test.txt 
+|ype test.txt 
+|s
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ls
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ls
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+gccrun Trebuchet.c ..\Part_1\sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|s gdb.exe
+whichc gd
+which gd
+gd
+|efreshenv
+es gdb.exe
+|ls
+refreshenv
+cd Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day2
+cd Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day1\Part_12
+|d Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day1\Part_2
+|s
+|ccrun Trebuchet.c test.txt 
+taskkill /IM /f trebuchet.exe
+|askkill /IM trebuchet.exe /f 
+|ls
+|ls
+nvim "Trebuchet.c" ..\Part_1\Trebuchet.c
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ls
+|d Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day1\Part_2
+|db Trebuchet.exe
+|ls
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ls
+|db Trebuchet.exe
+|db Trebuchet.exe
+|db Trebuchet.exe
+|db Trebuchet.exe
+|db Trebuchet.exe
+|db Trebuchet.exe
+|ls
+lldb
+lldb Trebuchet.ex
+lldb Trebuchet.exe
+lldb -h
+|vim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+|db Trebuchet.exe
+|db Trebuchet.exe
+|db Trebuchet.exe
+|db Trebuchet.exe
+gdb Trebuchet.exe
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|\Trebuchet.exe sample.txt 
+|askkill /IM trebuchet.exe /f 
+|\Trebuchet.exe sample.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+|askkill /IM trebuchet.exe /f 
+|askkill /IM trebuchet.exe /f 
+|ccrun Trebuchet.c test.txt 
+taskkill /IM trebuchet.exe /f 
+|ls
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+.\Trebuchet.exe sample.txt 
+.\Trebuchet.exe test.txt
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+cd AppData\Local\nvim
+di
+|ir
+|el nvim.7z 
+cd | clip  
+dox
+cd Gits\QuickWinSetup\
+..
+cd QuickWinSetup\
+|t
+|s
+np backup.bat 
+|p scripts\backup_confs.bat 
 np scripts\backup_confs.bat 
 .\scripts\backup_confs.bat 
+|it add configs\nvim\
+|el nvim.7z 
+cd configs\nvim\
+del nvim.7z 
+del nvim.zip 
+|s
+del cfg.7z 
+del cache.sqlite 
+del dbg.log 
+et
+...
+|it commit -m "Updated Neovim Config"
+|it reset
+git reset
+git add configs\nvim\
+git commit -m "Updated Neovim Config"
+git push
+z nvim
+z winsetup
+|d Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day1\Part_2
+|s
+nvim Trebuchet.c
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+            } else {
+                char *number = look_for_number(line, i);
+                if (number != NULL){
+|                   printf("%s\n", number);
+                }
+|ls
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|p sample.txt 
+np sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ls
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ype test.txt 
+type test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ls
+cd Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day1\Part_2
+|ccrun Trebuchet.c sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|s
+|ls
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ls
+clear
+                    printf("%s\n", number);
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ls
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|ccrun Trebuchet.c sample.txt 
+gccrun Trebuchet.c test.txt 
+|ccrun Trebuchet.c sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|ccrun Trebuchet.c sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+gccrun Trebuchet.c sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+|imeit .\Trebuchet.exe sample.txt 
+timeit .\Trebuchet.exe sample.txt 
+|ls
+|ls
+cd Documents\Advent_Of_Code\Advent_Of_Code_2023\Advent_Of_Code_2023_Day2\Part_1\
+curl https://adventofcode.com/2023/day/2/input
+pbpaste > sample.txt
+pbpaste > test.txt
+dir
+|vim Cube_Conundrum.rs 
+rustc Cube_Conundrum.rs 
+rustc -h
+rustc Cube_Conundrum.rs
+.\Cube_Conundrum.exe 
+|vim Cube_Conundrum.rs 
+|vim Cube_Conundrum.rs 
+|vim -V9dbg.log Cube_Conundrum.rs 
+|p dbg.log 
+nvim -V9dbg.log Cube_Conundrum.rs 
+np dbg.log 
+es -path C:\Users\Administrator\AppData\Local\nvim-data\ mason
+bye C:\Users\Administrator\AppData\Local\nvim-data\mason\
+|vim Cube_Conundrum.rs 
+es -path C:\Users\Administrator\AppData\Local\nvim-data\ treesitter
+es -path C:\Users\Administrator\AppData\Local\ treesitter
+bob use 0.9.5
+bob use 0.9.6
+bob use 1.0.0
+|ls
+byenow --yes --yolo --staged --show-bytes C:\Users\Administrator\AppData\Local\nvim-data\site\pack\packer\start\nvim-treesitter\ 
+nvim Cube_Conundrum.rs 
+nvim C:\Users\Administrator\AppData\Local\nvim\lua\pip\packer.lua
+byenow --yes --yolo --staged --show-bytes C:\Users\Administrator\AppData\Local\nvim-data\
+cd "C:\Users\ADMINI~1\AppData\Local\nvim\
+del nvim.zip  nvim.7z dbg.log cache.sqlite 
+|s
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim lua\pip\init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+del plugin\packer_compiled.lua 
+|s
+|vim init.lua 
+es -path C:\Users\Administrator\AppData\Local\nvim rtp
+es -path C:\Users\Administrator\AppData\Local\nvim-data rtp
+|vim init.lua 
+es -path C:\Users\Administrator\AppData\Local\nvim runtimepath
+es -path C:\Users\Administrator\AppData\Local\nvim runtime
+es -path C:\Users\Administrator\AppData\Local\nvim-data runtimepath
+|s -path C:\Users\Administrator\AppData\Local\nvim-data packer
+|yenow --yes --yolo --staged --show-bytes C:\Users\Administrator\AppData\Local\nvim-data\lazy\packer.nvim
+|vim init.lua 
+nvim lua\pip\lazy.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+byenow --yes --yolo --staged --show-bytes C:\Users\Administrator\AppData\Local\nvim-data\lazy\packer.nvim
+es -path C:\Users\Administrator\AppData\Local\nvim-data packer
+es -path C:\Users\Administrator\AppData\Local\ packer
+|ls
+|vim init.lua 
+|vim lua\pip\init.lua 
+|vim init.lua 
+|vim lua\pip\init.lua 
+|vim init.lua 
+|vim init.lua 
+|vim init.lua 
+nvim lua\pip\init.lua 
+|vim init.lua 
+nvim init.lua 
+np a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+|y a.py
+py a.py
+np a.c
+winget list
+|inget list | clip
+winget list | clip
+scoop list
+scoop list | clip
+chocolatey list | clip
+chocolatey show
+chocolatey -?
+chocolatey -h
+chocolatey list 
+chocolatey list local
+cls
+cd "Documents\Gits\QuickWinSetup\scripts\
+ls
+np copy_clink_conf.bat 
+np backup_confs.bat 
+.\backup_confs.bat 

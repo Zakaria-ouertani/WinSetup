@@ -19,6 +19,6 @@ SETLOCAL
         copy "%USERPROFILE%\.config\starship.toml" "%basegitdir%\configs\starship\starship.toml"
     :: END Starship
         echo Backing up Neovim Config | %boxes_bin% -d shell & echo.
-        call rsync %rsync_params%%basegitdir_cyg%/configs/all %homedir%/AppData/Local/nvim/ %basegitdir_cyg%/configs/nvim/ & echo. %NL%
+        call rsync %rsync_params% %basegitdir_cyg%/configs/all %homedir%/AppData/Local/nvim/ %basegitdir_cyg%/configs/nvim/ & echo. %NL%
     :: START neovim
 ENDLOCAL
